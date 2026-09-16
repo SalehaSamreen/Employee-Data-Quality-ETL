@@ -1,0 +1,1001 @@
+Employee_ID,Name,Age,Gender,City,Education,Department,Job_Title,Join_Date,Years_at_Company,Salary_INR,Performance_Rating,Leaves_Taken,Employment_Status
+EMP0001,Arjun Rao,36,Male,Hyderabad,Master's,Marketing,Content Strategist,2023-04-05,1,,Excellent,1,Resigned
+EMP0002,Sanjay Rajan,48,Male,Pune,Master's,Operations,Logistics Coordinator,2020-01-14,4,72900,Excellent,13,Active
+EMP0003,Divya Sharma,44,Female,Chennai,PhD,HR,HR Executive,2021-10-08,3,49100,Poor,29,Resigned
+EMP0004,Nithya Rajan,24,Female,Hyderabad,Master's,Operations,Operations Analyst,2023-09-02,1,49600,Good,8,Active
+EMP0005,Rajesh Iyer,26,Male,Hyderabad,Master's,Sales,Account Manager,2020-12-27,4,86800,Good,8,Active
+EMP0006,Nikhil Iyer,36,Male,Delhi,Bachelor's,Customer Support,Support Agent,2018-07-16,6,57600,Excellent,28,Active
+EMP0007,Lakshmi Menon,31,Female,Delhi,PhD,Operations,Operations Manager,2016-07-25,8,59400,Average,13,Terminated
+EMP0008,Rahul Singh,25,Male,Chennai,Bachelor's,HR,HR Executive,2016-09-18,8,77700,Poor,12,Resigned
+EMP0009,Shreya Bose,39,Female,Chennai,PhD,Engineering,Software Engineer,2016-04-01,8,99600,Good,30,Active
+EMP0010,Sanjay Menon,54,Male,Bangalore,Master's,Engineering,DevOps Engineer,2016-09-18,8,,Excellent,15,Resigned
+EMP0011,Ananya Kumar,27,Female,Pune,Diploma,Sales,Sales Executive,2015-10-11,9,113400,Good,15,Active
+EMP0012,Ananya Menon,41,Female,Mumbai,Diploma,Finance,Accountant,2022-07-14,2,91700,Poor,7,Active
+EMP0013,Deepak Rajan,25,Male,Mumbai,Master's,Engineering,Software Engineer,2015-10-04,9,64700,Excellent,8,Resigned
+EMP0014,Pradeep Menon,37,Male,Hyderabad,Diploma,Finance,Auditor,2019-07-26,5,68400,Excellent,11,Terminated
+EMP0015,Nikhil Pillai,25,Male,Mumbai,Diploma,Operations,Operations Analyst,2023-03-02,1,53000,Good,17,Active
+EMP0016,Pooja Rajan,50,Female,Hyderabad,Bachelor's,Customer Support,Support Agent,2015-07-27,9,32200,Good,15,Active
+EMP0017,Rahul Reddy,38,Male,Mumbai,Diploma,Engineering,QA Engineer,2018-03-14,6,117000,Poor,9,Active
+EMP0018,Pradeep Iyer,52,Male,Delhi,Master's,Engineering,Software Engineer,2015-08-21,9,122500,Good,2,Active
+EMP0019,Siddharth Das,27,Male,Mumbai,Diploma,Sales,Sales Executive,2022-05-16,2,76600,Average,21,Active
+EMP0020,Sneha Pillai,51,Female,Delhi,PhD,Operations,Operations Manager,2023-06-07,1,35300,Poor,3,Resigned
+EMP0021,Sneha Menon,37,Female,Kolkata,PhD,Marketing,Marketing Analyst,2018-03-13,6,53700,Average,20,Resigned
+EMP0022,Bhavana Pillai,38,Female,Bangalore,Bachelor's,Engineering,Senior Engineer,2016-03-14,8,160400,Good,19,Active
+EMP0023,Shreya Mehta,27,Female,Pune,Diploma,Marketing,Marketing Analyst,2018-02-07,6,40900,Average,8,Active
+EMP0024,Shreya Kumar,31,Female,Mumbai,Bachelor's,Engineering,Software Engineer,2019-02-21,5,134500,Good,1,Active
+EMP0025,Siddharth Iyer,28,Male,Kolkata,PhD,Sales,Sales Manager,2023-10-01,1,73000,Good,5,Active
+EMP0026,Priya Patel,48,Female,Kolkata,Master's,Operations,Operations Manager,2017-12-28,7,54000,Excellent,1,Active
+EMP0027,Meera Nair,36,Female,Kolkata,Bachelor's,Customer Support,Support Agent,2022-05-27,2,40300,Average,2,Active
+EMP0028,Sowmya Bose,23,Female,Chennai,Bachelor's,Finance,Finance Manager,2017-12-05,7,75200,Average,19,Active
+EMP0029,Lakshmi Das,46,Female,Delhi,Master's,Finance,Financial Analyst,2017-11-09,7,59500,Poor,29,Active
+EMP0030,Rajesh Reddy,42,Male,Hyderabad,Bachelor's,Engineering,DevOps Engineer,2023-01-27,1,90900,Average,10,Terminated
+EMP0031,Karthik Reddy,33,Male,Mumbai,PhD,Operations,Operations Manager,2019-07-22,5,68400,Average,13,Active
+EMP0032,Pooja Mehta,54,Female,Delhi,Diploma,HR,Recruiter,2023-11-26,1,79100,Excellent,21,Active
+EMP0033,Nikhil Nair,31,Male,Hyderabad,Bachelor's,Sales,Sales Manager,2015-07-09,9,64300,Excellent,28,Active
+EMP0034,Pooja Reddy,22,Female,Delhi,Bachelor's,Sales,Sales Manager,2023-09-24,1,63800,Good,14,Terminated
+EMP0035,Manoj Patel,55,Male,Hyderabad,PhD,Customer Support,Support Lead,2023-06-21,1,55800,Poor,28,Resigned
+EMP0036,Kavya Verma,55,Female,Pune,Diploma,Sales,Account Manager,2022-01-11,2,52800,Poor,9,Active
+EMP0037,Rahul Patel,31,Male,Hyderabad,Master's,Sales,Business Development Rep,2015-09-21,9,74200,Average,13,Resigned
+EMP0038,Bhavana Verma,46,Female,Delhi,Diploma,Finance,Financial Analyst,2015-01-25,9,96100,Poor,23,Active
+EMP0039,Manoj Rajan,53,Male,Mumbai,Bachelor's,Marketing,Marketing Manager,2019-05-12,5,66400,Poor,26,Terminated
+EMP0040,Siddharth Reddy,27,Male,Hyderabad,Diploma,Finance,Financial Analyst,2016-07-09,8,107500,Excellent,10,Active
+EMP0041,Kavya Verma,38,Female,Mumbai,Bachelor's,Customer Support,Support Lead,2020-04-10,4,32700,Excellent,20,Active
+EMP0042,Amit Kumar,23,Male,Mumbai,Master's,Sales,Sales Manager,2017-09-04,7,53600,Excellent,14,Resigned
+EMP0043,Deepak Das,29,Male,Delhi,Master's,Operations,Logistics Coordinator,2018-06-28,6,47200,Excellent,21,Active
+EMP0044,Vikram Das,37,Male,Kolkata,Bachelor's,Operations,Logistics Coordinator,2022-10-26,2,82900,Excellent,1,Resigned
+EMP0045,Divya Singh,22,Female,Kolkata,Diploma,Operations,Operations Manager,2020-06-30,4,42500,Average,14,Terminated
+EMP0046,Nithya Verma,51,Female,Bangalore,Diploma,Finance,Auditor,2023-03-14,1,76300,Good,28,Active
+EMP0047,Meera Kumar,33,Female,Delhi,Diploma,HR,HR Manager,2017-05-18,7,60500,Average,22,Active
+EMP0048,Vikram Rajan,53,Male,Kolkata,Master's,Operations,Operations Manager,2022-09-29,2,64800,Poor,0,Active
+EMP0049,Suresh Pillai,52,Male,Bangalore,PhD,Finance,Finance Manager,2019-10-09,5,89500,Poor,8,Active
+EMP0050,Divya Rao,34,Female,Kolkata,Master's,Finance,Accountant,2023-04-14,1,104500,Average,6,Active
+EMP0051,Priya Rao,39,Female,Kolkata,Bachelor's,Finance,Accountant,2015-08-12,9,95600,Good,24,Terminated
+EMP0052,Pooja Mehta,33,Female,Hyderabad,Bachelor's,HR,HR Manager,2017-10-31,7,66400,Excellent,2,Active
+EMP0053,Rahul Verma,27,Male,Hyderabad,Master's,Finance,Finance Manager,2016-04-30,8,108500,Good,14,Resigned
+EMP0054,Kavya Das,28,Female,Mumbai,Master's,Finance,Financial Analyst,2022-01-06,2,69700,Excellent,5,Active
+EMP0055,Pooja Rao,40,Female,Kolkata,Bachelor's,Finance,Auditor,2017-08-06,7,91400,Average,14,Terminated
+EMP0056,Revathi Verma,34,Female,Kolkata,Diploma,Operations,Logistics Coordinator,2016-04-15,8,73400,Good,4,Active
+EMP0057,Nithya Rao,40,Female,Hyderabad,Diploma,Customer Support,Customer Success Manager,2016-05-24,8,71000,Average,30,Terminated
+EMP0058,Divya Das,42,Female,Kolkata,PhD,Engineering,QA Engineer,2015-04-16,9,70700,Excellent,8,Terminated
+EMP0059,Manoj Singh,39,Male,Hyderabad,Master's,Operations,Operations Manager,2021-07-25,3,64000,Poor,11,Active
+EMP0060,Ravi Patel,53,Male,Chennai,PhD,Marketing,Marketing Manager,2022-06-06,2,64500,Excellent,10,Active
+EMP0061,Saranya Singh,51,Female,Kolkata,Diploma,Customer Support,Support Agent,2015-08-11,9,51300,Average,15,Resigned
+EMP0062,Suresh Singh,50,Male,Mumbai,Diploma,Sales,Account Manager,2016-05-12,8,51200,Good,9,Terminated
+EMP0063,Karthik Bose,29,Male,Kolkata,Master's,Engineering,QA Engineer,2020-08-03,4,148300,Average,15,Active
+EMP0064,Arun Rajan,26,Male,Bangalore,PhD,Finance,Accountant,2023-08-31,1,95600,Average,23,Active
+EMP0065,Saranya Patel,44,Female,Bangalore,PhD,HR,Payroll Specialist,2021-03-10,3,84800,Poor,27,Active
+EMP0066,Ananya Bose,24,Female,Pune,PhD,Customer Support,Support Lead,2023-05-09,1,57900,Poor,25,Active
+EMP0067,Priya Patel,28,Female,Mumbai,Diploma,Finance,Finance Manager,2016-02-13,8,120400,Excellent,13,Terminated
+EMP0068,Manoj Verma,47,Male,Pune,Bachelor's,Marketing,SEO Specialist,2018-09-07,6,102100,Poor,22,Active
+EMP0069,Deepak Sharma,36,Male,Mumbai,Bachelor's,Sales,Account Manager,2019-11-13,5,102600,Excellent,22,Active
+EMP0070,Revathi Kumar,45,Female,Pune,Diploma,Marketing,SEO Specialist,2016-08-19,8,63700,Poor,25,Resigned
+EMP0071,Nithya Pillai,31,Female,Pune,Master's,Sales,Business Development Rep,2020-03-03,4,80900,Poor,0,Active
+EMP0072,Sowmya Singh,50,Female,Bangalore,PhD,Sales,Sales Executive,2021-08-03,3,60000,Poor,14,Terminated
+EMP0073,Saranya Mehta,46,Female,Kolkata,PhD,Engineering,Senior Engineer,2021-06-12,3,94600,,21,Active
+EMP0074,Siddharth Das,40,Male,Mumbai,Master's,Operations,Operations Manager,2021-10-22,3,86200,Good,19,Terminated
+EMP0075,Nikhil Sharma,24,Male,Mumbai,PhD,Operations,Logistics Coordinator,2023-11-05,1,59500,Average,2,Terminated
+EMP0076,Sneha Rajan,55,Female,Kolkata,PhD,Sales,Account Manager,2016-11-04,8,63700,Average,10,Terminated
+EMP0077,Rahul Verma,45,Male,Chennai,Bachelor's,Sales,Business Development Rep,2023-11-13,1,61400,Average,14,Resigned
+EMP0078,Nithya Reddy,45,Female,Delhi,Bachelor's,Customer Support,Customer Success Manager,2022-07-27,2,43300,Excellent,10,Resigned
+EMP0079,Nikhil Bose,48,Male,Chennai,Bachelor's,HR,HR Manager,2016-07-26,8,37600,Average,3,Active
+EMP0080,Pooja Iyer,48,Female,Hyderabad,Master's,Operations,Logistics Coordinator,2019-08-27,5,76400,Poor,30,Resigned
+EMP0081,Ananya Mehta,45,Female,Hyderabad,Bachelor's,HR,Recruiter,2022-09-09,2,57300,Average,8,Active
+EMP0082,Divya Pillai,25,Female,Kolkata,PhD,Sales,Sales Executive,2017-09-24,7,105100,Good,24,Active
+EMP0083,Rajesh Verma,39,Male,Pune,Master's,Sales,Sales Executive,2016-06-16,8,,,27,Active
+EMP0084,Deepak Iyer,38,Male,Chennai,Bachelor's,Engineering,Senior Engineer,2016-06-03,8,158100,Excellent,15,Terminated
+EMP0085,Manoj Singh,55,Male,Kolkata,PhD,Sales,Sales Executive,2020-02-20,4,79400,Excellent,12,Active
+EMP0086,Divya Menon,31,Female,Delhi,Bachelor's,Engineering,DevOps Engineer,2016-05-31,8,100300,Average,16,Active
+EMP0087,Divya Verma,35,Female,Hyderabad,Diploma,Operations,Operations Analyst,2020-01-24,4,50400,Average,13,Active
+EMP0088,Sowmya Nair,52,Female,Chennai,Bachelor's,Marketing,Content Strategist,2016-01-09,8,94900,Excellent,23,Active
+EMP0089,Deepak Singh,29,Male,Delhi,Diploma,Finance,Finance Manager,2018-12-19,6,107300,Excellent,9,Active
+EMP0090,Rahul Pillai,28,Male,Mumbai,PhD,HR,Recruiter,2021-03-28,3,56300,Average,25,Resigned
+EMP0091,Deepak Menon,39,Male,Bangalore,Bachelor's,Operations,Logistics Coordinator,2017-01-08,7,61500,Average,0,Active
+EMP0092,Divya Patel,23,Female,Hyderabad,Bachelor's,Operations,Logistics Coordinator,2023-05-15,1,65700,Poor,10,Active
+EMP0093,Revathi Das,25,Female,Hyderabad,Master's,Finance,Financial Analyst,2016-10-06,8,61600,Excellent,21,Active
+EMP0094,Kavya Rajan,29,Female,Pune,PhD,Customer Support,Customer Success Manager,2019-10-27,5,37700,Poor,9,Resigned
+EMP0095,Arjun Rajan,30,Male,Pune,PhD,Marketing,Content Strategist,2018-03-31,6,61000,Excellent,13,Active
+EMP0096,Sanjay Singh,44,Male,Chennai,Bachelor's,Customer Support,Customer Success Manager,2019-06-15,5,34700,Excellent,27,Active
+EMP0097,Aishwarya Pillai,29,Female,Bangalore,Diploma,HR,HR Manager,2015-03-27,9,58900,Poor,2,Terminated
+EMP0098,Nithya Reddy,47,Female,Chennai,PhD,Finance,Financial Analyst,2023-05-13,1,85500,Average,16,Active
+EMP0099,Siddharth Verma,31,Male,Delhi,Master's,Marketing,SEO Specialist,2016-02-26,8,52800,Good,4,Active
+EMP0100,Amit Pillai,50,Male,Hyderabad,PhD,HR,Payroll Specialist,2022-01-13,2,52300,Poor,14,Active
+EMP0101,Rajesh Singh,51,Male,Pune,Diploma,Engineering,DevOps Engineer,2015-06-04,9,68800,Average,27,Active
+EMP0102,Pooja Das,50,Female,Hyderabad,Master's,Finance,Financial Analyst,2018-08-09,6,111500,Good,3,Active
+EMP0103,Sanjay Pillai,37,Male,Bangalore,Diploma,Sales,Sales Executive,2019-12-05,5,77200,Good,29,Active
+EMP0104,Sowmya Das,26,Female,Bangalore,PhD,Engineering,DevOps Engineer,2016-01-23,8,138200,Poor,23,Active
+EMP0105,Rajesh Sharma,44,Male,Delhi,PhD,Finance,Accountant,2022-05-11,2,92900,Excellent,12,Active
+EMP0106,Nikhil Rao,55,Male,Bangalore,Bachelor's,Customer Support,Customer Success Manager,2022-03-31,2,55800,Average,9,Active
+EMP0107,Ananya Rajan,26,Female,Bangalore,PhD,Sales,Sales Manager,2023-11-03,1,43200,Excellent,28,Terminated
+EMP0108,Sneha Patel,50,Female,Delhi,Bachelor's,Sales,Sales Manager,2019-08-10,5,68300,Good,9,Active
+EMP0109,Sanjay Rajan,34,Male,Kolkata,PhD,Marketing,Marketing Manager,2022-08-10,2,75200,Poor,12,Active
+EMP0110,Ravi Rajan,30,Male,Kolkata,PhD,Customer Support,Customer Success Manager,2015-08-02,9,67800,Excellent,16,Terminated
+EMP0111,Suresh Mehta,49,Male,Chennai,Bachelor's,Finance,Accountant,2017-06-28,7,107600,Excellent,12,Active
+EMP0112,Rajesh Rajan,28,Male,Kolkata,PhD,Engineering,DevOps Engineer,2023-11-16,1,69900,Excellent,15,Active
+EMP0113,Pooja Das,23,Female,Kolkata,PhD,Engineering,Software Engineer,2017-06-02,7,81000,Poor,9,Active
+EMP0114,Arun Pillai,51,Male,Delhi,Bachelor's,Customer Support,Customer Success Manager,2016-03-30,8,71500,Excellent,18,Terminated
+EMP0115,Priya Das,48,Female,Delhi,Master's,Marketing,Content Strategist,2022-06-14,2,80100,Average,17,Active
+EMP0116,Arun Bose,46,Male,Bangalore,PhD,HR,HR Executive,2017-11-04,7,82700,Average,7,Active
+EMP0117,Sneha Kumar,33,Female,Chennai,Diploma,Marketing,SEO Specialist,2022-10-19,2,69900,Good,22,Active
+EMP0118,Ananya Kumar,24,Female,Chennai,PhD,Customer Support,Support Agent,2018-06-24,6,66700,Poor,24,Active
+EMP0119,Ravi Pillai,29,Male,Bangalore,PhD,Marketing,SEO Specialist,2019-11-25,5,99900,Poor,5,Active
+EMP0120,Revathi Sharma,27,Female,Chennai,Diploma,Operations,Operations Manager,2021-10-03,3,86500,Average,2,Active
+EMP0121,Nithya Rao,50,Female,Hyderabad,PhD,HR,Recruiter,2020-01-06,4,40700,Average,8,Resigned
+EMP0122,Vikram Pillai,45,Male,Mumbai,Master's,Operations,Operations Manager,2015-05-08,9,55100,Poor,2,Active
+EMP0123,Lakshmi Das,31,Female,Mumbai,Diploma,Engineering,Tech Lead,2019-02-28,5,105800,Excellent,16,Resigned
+EMP0124,Ananya Sharma,53,Female,Hyderabad,Diploma,Engineering,Senior Engineer,2021-04-19,3,68500,Average,6,Terminated
+EMP0125,Ananya Sharma,50,Female,Bangalore,Master's,Sales,Sales Executive,2022-12-31,2,65500,Average,22,Terminated
+EMP0126,Saranya Patel,33,Female,Mumbai,PhD,Operations,Logistics Coordinator,2020-09-14,4,47700,Good,25,Active
+EMP0127,Pooja Verma,27,Female,Hyderabad,Bachelor's,Finance,Accountant,2018-06-20,6,104000,Poor,24,Resigned
+EMP0128,Rajesh Pillai,51,Male,Hyderabad,PhD,Engineering,QA Engineer,2016-06-09,8,136700,Good,16,Active
+EMP0129,Sanjay Patel,32,Male,Bangalore,PhD,Marketing,Content Strategist,2022-12-15,2,52200,Average,6,Active
+EMP0130,Nikhil Nair,54,Male,Chennai,Master's,Finance,Financial Analyst,2021-08-21,3,62800,Average,26,Resigned
+EMP0131,Sowmya Rajan,48,Female,Mumbai,Bachelor's,Customer Support,Customer Success Manager,2020-08-01,4,51200,Average,25,Active
+EMP0132,Divya Rao,50,Female,Mumbai,Diploma,Engineering,Senior Engineer,2020-06-06,4,114500,Average,10,Resigned
+EMP0133,Lakshmi Patel,54,Female,Hyderabad,Bachelor's,Customer Support,Support Lead,2018-07-31,6,49600,Excellent,7,Active
+EMP0134,Saranya Das,32,Female,Hyderabad,PhD,HR,Recruiter,2021-06-24,3,80700,Good,16,Active
+EMP0135,Priya Sharma,37,Female,Hyderabad,Master's,HR,Payroll Specialist,2021-07-17,3,54900,Excellent,19,Active
+EMP0136,Kavya Singh,49,Female,Chennai,Master's,Engineering,Software Engineer,2017-12-19,7,154100,Poor,12,Active
+EMP0137,Shreya Nair,54,Female,Chennai,Diploma,Engineering,QA Engineer,2023-07-28,1,123100,Excellent,12,Active
+EMP0138,Revathi Patel,54,Female,Delhi,Bachelor's,Sales,Business Development Rep,2015-07-05,9,44600,Average,14,Active
+EMP0139,Rajesh Menon,32,Male,Kolkata,Diploma,Finance,Finance Manager,2021-11-30,3,84400,Average,16,Resigned
+EMP0140,Pooja Bose,43,Female,Hyderabad,Bachelor's,Engineering,DevOps Engineer,2019-09-03,5,132200,Excellent,8,Resigned
+EMP0141,Pradeep Kumar,32,Male,Chennai,Diploma,Finance,Auditor,2016-08-28,8,76300,Excellent,14,Active
+EMP0142,Arun Singh,52,Male,Bangalore,Bachelor's,Customer Support,Customer Success Manager,2022-11-30,2,37200,Good,21,Resigned
+EMP0143,Manoj Menon,44,Male,Delhi,PhD,Finance,Finance Manager,2021-11-03,3,106100,Good,9,Active
+EMP0144,Revathi Nair,53,Female,Chennai,PhD,Operations,Operations Analyst,2020-05-19,4,59400,Average,18,Active
+EMP0145,Saranya Iyer,40,Female,Bangalore,Bachelor's,Customer Support,Support Agent,2018-03-24,6,37400,Poor,23,Terminated
+EMP0146,Bhavana Singh,30,Female,Chennai,Bachelor's,Operations,Operations Manager,2021-11-26,3,83700,Good,21,Active
+EMP0147,Arjun Sharma,52,Male,Pune,Bachelor's,HR,HR Manager,2022-08-22,2,40000,Good,29,Active
+EMP0148,Amit Nair,25,Male,Hyderabad,Bachelor's,Marketing,SEO Specialist,2022-04-25,2,74600,Excellent,28,Active
+EMP0149,Ravi Reddy,33,Male,Bangalore,PhD,Customer Support,Support Lead,2015-06-03,9,35600,Excellent,14,Active
+EMP0150,Bhavana Patel,51,Female,Hyderabad,PhD,Customer Support,Customer Success Manager,2017-02-28,7,40600,Good,20,Terminated
+EMP0151,Revathi Nair,33,Female,Pune,Diploma,Finance,Accountant,2019-10-18,5,113400,Excellent,3,Active
+EMP0152,Bhavana Rajan,46,Female,Delhi,Master's,Engineering,DevOps Engineer,2020-01-04,4,153000,Average,23,Active
+EMP0153,Aishwarya Rajan,51,Female,Chennai,PhD,Engineering,Software Engineer,2016-10-16,8,118400,Average,20,Terminated
+EMP0154,Karthik Patel,51,Male,Kolkata,PhD,HR,Recruiter,2019-08-31,5,84100,Poor,21,Resigned
+EMP0155,Sanjay Mehta,26,Male,Bangalore,Bachelor's,Finance,Finance Manager,2015-09-10,9,114500,Good,27,Active
+EMP0156,Pradeep Das,54,Male,Delhi,Diploma,HR,HR Executive,2015-08-16,9,66600,Poor,1,Active
+EMP0157,Aishwarya Kumar,22,Female,Pune,Master's,HR,HR Manager,2021-06-26,3,36600,Poor,2,Active
+EMP0158,Siddharth Mehta,48,Male,Hyderabad,Master's,Engineering,DevOps Engineer,2023-08-16,1,69600,Poor,14,Active
+EMP0159,Divya Pillai,30,Female,Mumbai,PhD,Operations,Logistics Coordinator,2016-04-30,8,54500,Poor,23,Resigned
+EMP0160,Suresh Mehta,49,Male,Bangalore,Diploma,Operations,Logistics Coordinator,2017-07-29,7,56300,Average,6,Active
+EMP0161,Arjun Verma,23,Male,Delhi,Master's,Operations,Operations Manager,2017-04-24,7,39400,Excellent,21,Active
+EMP0162,Arun Mehta,25,Male,Delhi,Master's,Sales,Sales Manager,2020-08-25,4,57900,Average,24,Resigned
+EMP0163,Bhavana Patel,36,Female,Pune,Diploma,Operations,Logistics Coordinator,2018-05-15,6,51800,Good,13,Terminated
+EMP0164,Sowmya Pillai,48,Female,Hyderabad,Diploma,HR,HR Manager,2016-09-03,8,59800,Good,7,Resigned
+EMP0165,Amit Mehta,48,Male,Bangalore,Diploma,Engineering,Tech Lead,2021-04-01,3,121800,Poor,6,Active
+EMP0166,Saranya Iyer,34,Female,Mumbai,Bachelor's,Engineering,Tech Lead,2018-01-04,6,110700,Excellent,25,Active
+EMP0167,Manoj Rajan,41,Male,Pune,Bachelor's,Customer Support,Support Lead,2017-05-17,7,42600,Poor,19,Active
+EMP0168,Sanjay Iyer,46,Male,Delhi,Diploma,Customer Support,Support Lead,2020-12-25,4,53100,Average,28,Active
+EMP0169,Revathi Bose,45,Female,Mumbai,PhD,Marketing,Content Strategist,2019-08-23,5,46300,Good,0,Terminated
+EMP0170,Kavya Patel,36,Female,Pune,Diploma,Sales,Account Manager,2021-05-22,3,92600,Poor,30,Resigned
+EMP0171,Aishwarya Pillai,51,Female,Pune,Master's,Operations,Operations Manager,2023-03-21,1,83300,Good,17,Active
+EMP0172,Sanjay Kumar,25,Male,Pune,Bachelor's,Customer Support,Support Agent,2019-08-17,5,,Good,4,Active
+EMP0173,Priya Das,52,Female,Chennai,Diploma,Operations,Logistics Coordinator,2015-03-06,9,44700,Poor,16,Active
+EMP0174,Priya Singh,49,Female,Mumbai,Master's,Customer Support,Customer Success Manager,2016-03-14,8,43900,Good,19,Active
+EMP0175,Revathi Reddy,47,Female,Pune,Diploma,Engineering,DevOps Engineer,2021-05-03,3,87700,Good,26,Active
+EMP0176,Vikram Reddy,52,Male,Hyderabad,Bachelor's,HR,Payroll Specialist,2022-02-21,2,34500,Good,27,Active
+EMP0177,Siddharth Singh,35,Male,Delhi,Diploma,Engineering,Senior Engineer,2018-01-15,6,60000,Average,21,Resigned
+EMP0178,Priya Rajan,47,Female,Kolkata,Bachelor's,Finance,Accountant,2018-05-10,6,71200,Good,27,Resigned
+EMP0179,Lakshmi Verma,27,Female,Bangalore,PhD,Operations,Operations Analyst,2015-08-08,9,49000,Good,19,Active
+EMP0180,Revathi Iyer,50,Female,Mumbai,Diploma,Engineering,DevOps Engineer,2017-07-23,7,108100,Poor,21,Active
+EMP0181,Revathi Rajan,27,Female,Hyderabad,PhD,Operations,Operations Analyst,2016-09-23,8,70600,Good,10,Terminated
+EMP0182,Pooja Iyer,28,Female,Delhi,Master's,Customer Support,Support Lead,2015-12-24,9,49700,Poor,16,Resigned
+EMP0183,Shreya Sharma,46,Female,Delhi,Bachelor's,Finance,Finance Manager,2018-04-10,6,102000,Excellent,28,Terminated
+EMP0184,Nikhil Reddy,39,Male,Hyderabad,PhD,Sales,Sales Manager,2018-01-04,6,72100,Excellent,8,Active
+EMP0185,Rajesh Nair,34,Male,Bangalore,Diploma,Sales,Business Development Rep,2016-03-14,8,52900,Excellent,26,Active
+EMP0186,Pooja Iyer,41,Female,Mumbai,PhD,HR,Recruiter,2021-10-06,3,78300,Poor,30,Active
+EMP0187,Nithya Verma,46,Female,Mumbai,PhD,Sales,Account Manager,2023-10-24,1,62000,Excellent,18,Resigned
+EMP0188,Pradeep Mehta,50,Male,Pune,PhD,Operations,Operations Analyst,2022-10-08,2,37200,Poor,9,Active
+EMP0189,Revathi Reddy,52,Female,Chennai,Diploma,Engineering,QA Engineer,2020-12-28,4,124100,Poor,25,Resigned
+EMP0190,Vikram Verma,32,Male,Kolkata,Bachelor's,Sales,Account Manager,2021-04-25,3,104900,Poor,13,Active
+EMP0191,Sanjay Rao,50,Male,Chennai,PhD,Finance,Accountant,2019-05-22,5,110100,Good,15,Active
+EMP0192,Vikram Bose,44,Male,Hyderabad,PhD,Operations,Operations Analyst,2018-11-06,6,65400,Poor,3,Active
+EMP0193,Divya Nair,23,Female,Mumbai,PhD,Engineering,Software Engineer,2022-04-08,2,68100,Good,16,Terminated
+EMP0194,Pooja Rajan,33,Female,Delhi,Master's,Customer Support,Support Lead,2022-03-08,2,55900,Excellent,28,Terminated
+EMP0195,Priya Rao,39,Female,Bangalore,Bachelor's,Sales,Sales Manager,2021-06-22,3,46500,Good,6,Active
+EMP0196,Shreya Pillai,47,Female,Pune,Bachelor's,Marketing,Marketing Manager,2018-11-26,6,66700,Good,25,Terminated
+EMP0197,Nikhil Patel,37,Male,Hyderabad,PhD,Marketing,Marketing Analyst,2016-04-24,8,57100,Good,13,Resigned
+EMP0198,Sneha Mehta,33,Female,Kolkata,Master's,Operations,Logistics Coordinator,2020-06-28,4,52100,Good,14,Active
+EMP0199,Manoj Patel,54,Male,Kolkata,Diploma,Sales,Business Development Rep,2019-08-03,5,87400,Poor,14,Terminated
+EMP0200,Amit Verma,24,Male,Delhi,PhD,Sales,Account Manager,2017-07-09,7,77900,Good,23,Active
+EMP0201,Deepak Sharma,24,Male,Kolkata,Diploma,Marketing,SEO Specialist,2021-02-15,3,53400,Excellent,20,Terminated
+EMP0202,Manoj Nair,50,Male,Delhi,Bachelor's,Marketing,Marketing Analyst,2023-09-12,1,89200,Good,22,Terminated
+EMP0203,Sneha Das,35,Female,Delhi,Bachelor's,Sales,Sales Manager,2021-05-24,3,62800,Average,5,Resigned
+EMP0204,Nithya Nair,28,Female,Mumbai,Master's,Customer Support,Customer Success Manager,2023-05-31,1,52600,Average,22,Terminated
+EMP0205,Saranya Rajan,47,Female,Hyderabad,Diploma,Customer Support,Customer Success Manager,2016-08-05,8,56900,Poor,2,Active
+EMP0206,Arun Singh,45,Male,Chennai,Diploma,Operations,Operations Manager,2020-06-22,4,58200,Excellent,23,Terminated
+EMP0207,Saranya Sharma,47,Female,Kolkata,Master's,Customer Support,Customer Success Manager,2019-10-26,5,46400,Average,9,Active
+EMP0208,Revathi Iyer,24,Female,Kolkata,Bachelor's,Operations,Operations Analyst,2022-01-08,2,84300,,5,Active
+EMP0209,Ananya Rao,32,Female,Bangalore,PhD,Sales,Account Manager,2016-01-18,8,87800,Average,21,Active
+EMP0210,Sowmya Nair,36,Female,Mumbai,Diploma,Operations,Logistics Coordinator,2022-05-08,2,39900,Excellent,15,Active
+EMP0211,Priya Kumar,29,Female,Hyderabad,Diploma,Operations,Operations Manager,2022-10-13,2,41600,Excellent,2,Active
+EMP0212,Meera Menon,46,Female,Delhi,Master's,Marketing,Content Strategist,2022-03-12,2,81000,Excellent,0,Resigned
+EMP0213,Aishwarya Rajan,31,Female,Chennai,Diploma,Operations,Logistics Coordinator,2021-11-28,3,79200,Good,4,Active
+EMP0214,Meera Reddy,37,Female,Chennai,PhD,Marketing,Content Strategist,2022-03-25,2,42500,Average,27,Terminated
+EMP0215,Sanjay Das,47,Male,Chennai,PhD,Finance,Accountant,2022-03-31,2,49100,Poor,7,Active
+EMP0216,Rajesh Menon,46,Male,Kolkata,Diploma,Marketing,Content Strategist,2019-02-05,5,,Good,2,Active
+EMP0217,Ananya Kumar,54,Female,Pune,PhD,Engineering,QA Engineer,2022-01-18,2,146500,Poor,12,Active
+EMP0218,Suresh Sharma,54,Male,Pune,Master's,Marketing,Marketing Analyst,2016-09-28,8,79500,Poor,24,Resigned
+EMP0219,Suresh Rao,25,Male,Delhi,Master's,HR,Recruiter,2015-12-20,9,65100,Poor,1,Resigned
+EMP0220,Vikram Kumar,22,Male,Bangalore,Master's,Operations,Operations Analyst,2020-07-26,4,59000,Average,4,Active
+EMP0221,Amit Menon,49,Male,Hyderabad,PhD,Engineering,DevOps Engineer,2020-11-15,4,62500,Excellent,16,Active
+EMP0222,Rajesh Patel,29,Male,Mumbai,Master's,Marketing,Marketing Analyst,2023-04-23,1,68900,Excellent,1,Active
+EMP0223,Rahul Menon,48,Male,Kolkata,Master's,Customer Support,Support Agent,2018-08-11,6,49400,Average,2,Active
+EMP0224,Rahul Rajan,24,Male,Chennai,Diploma,Customer Support,Customer Success Manager,2015-10-10,9,65200,Average,17,Active
+EMP0225,Nithya Verma,51,Female,Chennai,PhD,Marketing,Content Strategist,2021-08-20,3,70000,Good,29,Active
+EMP0226,Sowmya Bose,43,Female,Mumbai,Bachelor's,Operations,Operations Analyst,2023-07-06,1,74300,Average,16,Active
+EMP0227,Rahul Rao,24,Male,Pune,Master's,Marketing,Marketing Analyst,2020-10-29,4,69800,Average,2,Active
+EMP0228,Divya Das,49,Female,Pune,Master's,Finance,Financial Analyst,2017-08-27,7,85500,Average,26,Active
+EMP0229,Ananya Sharma,28,Female,Hyderabad,Master's,Sales,Sales Manager,2016-03-08,8,57100,Poor,3,Active
+EMP0230,Manoj Nair,29,Male,Kolkata,Bachelor's,HR,HR Manager,2016-10-07,8,83900,Excellent,27,Active
+EMP0231,Rajesh Reddy,41,Male,Pune,PhD,Finance,Financial Analyst,2016-12-13,8,54700,Poor,17,Resigned
+EMP0232,Vikram Kumar,30,Male,Delhi,Master's,Engineering,Senior Engineer,2019-06-29,5,108300,Excellent,8,Resigned
+EMP0233,Karthik Menon,30,Male,Mumbai,Bachelor's,Operations,Operations Manager,2018-09-20,6,41600,Poor,29,Active
+EMP0234,Pooja Kumar,33,Female,Mumbai,PhD,HR,Payroll Specialist,2017-05-29,7,49700,Average,1,Active
+EMP0235,Pooja Reddy,25,Female,Pune,Bachelor's,Finance,Auditor,2018-02-19,6,94900,Poor,28,Active
+EMP0236,Arun Verma,52,Male,Bangalore,Diploma,Operations,Operations Manager,2018-11-10,6,,Average,5,Active
+EMP0237,Siddharth Verma,25,Male,Chennai,Diploma,Customer Support,Support Lead,2020-12-08,4,55200,Good,7,Active
+EMP0238,Amit Rajan,44,Male,Pune,Master's,Finance,Auditor,2016-12-22,8,84700,Average,11,Terminated
+EMP0239,Nithya Das,53,Female,Mumbai,PhD,Sales,Sales Manager,2016-12-20,8,71800,Excellent,19,Active
+EMP0240,Rajesh Menon,30,Male,Mumbai,PhD,Finance,Accountant,2023-01-15,1,64400,Excellent,18,Active
+EMP0241,Ravi Singh,26,Male,Bangalore,PhD,Customer Support,Support Lead,2022-11-25,2,54300,Excellent,10,Active
+EMP0242,Revathi Pillai,33,Female,Bangalore,PhD,HR,HR Manager,2017-07-03,7,85600,Good,23,Active
+EMP0243,Pradeep Das,33,Male,Mumbai,PhD,HR,HR Executive,2021-11-09,3,49900,Excellent,10,Active
+EMP0244,Sneha Pillai,50,Female,Bangalore,Bachelor's,Engineering,DevOps Engineer,2017-12-22,7,84600,,25,Active
+EMP0245,Pooja Rao,48,Female,Kolkata,Diploma,HR,Recruiter,2019-04-01,5,61100,Poor,15,Active
+EMP0246,Rahul Mehta,40,Male,Mumbai,Bachelor's,Engineering,Software Engineer,2018-07-29,6,88500,Excellent,28,Active
+EMP0247,Rajesh Das,23,Male,Chennai,Diploma,Finance,Auditor,2022-05-01,2,65100,Poor,3,Active
+EMP0248,Aishwarya Singh,38,Female,Delhi,PhD,Operations,Logistics Coordinator,2018-05-03,6,49700,Excellent,17,Active
+EMP0249,Priya Reddy,52,Female,Bangalore,Master's,Engineering,DevOps Engineer,2016-02-02,8,60800,Good,2,Terminated
+EMP0250,Pooja Mehta,27,Female,Hyderabad,Diploma,Operations,Operations Manager,2017-01-27,7,63300,Average,1,Active
+EMP0251,Ravi Nair,31,Male,Mumbai,Bachelor's,Finance,Financial Analyst,2015-12-18,9,99500,Poor,17,Resigned
+EMP0252,Shreya Pillai,37,Female,Delhi,Diploma,Customer Support,Support Lead,2018-05-09,6,38000,Excellent,28,Resigned
+EMP0253,Vikram Verma,32,Male,Pune,Master's,HR,Recruiter,2017-02-28,7,42400,Poor,13,Active
+EMP0254,Ravi Das,26,Male,Delhi,Bachelor's,Marketing,SEO Specialist,2019-05-09,5,78000,,14,Active
+EMP0255,Divya Reddy,28,Female,Bangalore,Bachelor's,Sales,Sales Manager,2021-04-23,3,88200,Average,28,Resigned
+EMP0256,Nithya Das,33,Female,Hyderabad,PhD,HR,HR Executive,2019-07-09,5,48300,Poor,28,Active
+EMP0257,Pradeep Mehta,23,Male,Kolkata,PhD,Marketing,SEO Specialist,2023-11-25,1,56000,Average,22,Active
+EMP0258,Rahul Nair,42,Male,Hyderabad,PhD,Operations,Operations Manager,2023-03-05,1,59100,Excellent,6,Active
+EMP0259,Revathi Singh,25,Female,Kolkata,Master's,Customer Support,Support Lead,2015-09-26,9,63000,Poor,27,Active
+EMP0260,Karthik Menon,25,Male,Mumbai,Master's,Customer Support,Support Agent,2015-05-16,9,60300,Average,8,Terminated
+EMP0261,Sowmya Menon,37,Female,Delhi,PhD,Engineering,Software Engineer,2020-06-25,4,133500,Good,17,Active
+EMP0262,Aishwarya Bose,40,Female,Pune,Bachelor's,Operations,Operations Analyst,2019-05-03,5,37400,Good,7,Active
+EMP0263,Shreya Kumar,22,Female,Bangalore,Diploma,Customer Support,Customer Success Manager,2016-06-25,8,50200,Excellent,19,Active
+EMP0264,Lakshmi Menon,51,Female,Chennai,PhD,HR,HR Manager,2017-06-12,7,68400,Poor,0,Resigned
+EMP0265,Shreya Pillai,41,Female,Bangalore,Bachelor's,Finance,Finance Manager,2020-05-27,4,53100,Average,27,Terminated
+EMP0266,Ananya Patel,25,Female,Chennai,Diploma,Finance,Accountant,2022-05-29,2,85700,Good,20,Terminated
+EMP0267,Lakshmi Reddy,34,Female,Bangalore,PhD,Operations,Operations Analyst,2023-02-23,1,77700,Poor,16,Terminated
+EMP0268,Suresh Sharma,38,Male,Bangalore,Master's,HR,Recruiter,2022-08-16,2,55700,Excellent,7,Active
+EMP0269,Meera Nair,51,Female,Mumbai,Bachelor's,Finance,Finance Manager,2020-04-11,4,54200,Excellent,16,Active
+EMP0270,Lakshmi Kumar,30,Female,Bangalore,Master's,Customer Support,Support Agent,2018-11-04,6,61800,Poor,27,Active
+EMP0271,Meera Pillai,25,Female,Kolkata,Bachelor's,Sales,Account Manager,2020-01-26,4,56600,Good,5,Resigned
+EMP0272,Rahul Das,47,Male,Mumbai,Diploma,HR,Payroll Specialist,2020-05-09,4,57200,,23,Resigned
+EMP0273,Revathi Bose,23,Female,Mumbai,Bachelor's,Finance,Accountant,2022-01-10,2,74500,Average,3,Active
+EMP0274,Vikram Bose,40,Male,Pune,Diploma,Engineering,DevOps Engineer,2023-03-01,1,119900,Average,4,Active
+EMP0275,Revathi Rajan,23,Female,Chennai,Master's,Sales,Business Development Rep,2017-07-07,7,88000,Good,18,Terminated
+EMP0276,Arun Menon,25,Male,Pune,Bachelor's,Operations,Operations Manager,2022-06-04,2,40800,Excellent,3,Active
+EMP0277,Pooja Rao,22,Female,Delhi,PhD,Sales,Sales Manager,2019-09-20,5,81900,Average,22,Resigned
+EMP0278,Sanjay Rao,40,Male,Mumbai,Bachelor's,Finance,Financial Analyst,2023-10-20,1,55400,Good,24,Resigned
+EMP0279,Rajesh Rao,32,Male,Mumbai,Bachelor's,HR,HR Manager,2021-02-23,3,,Poor,0,Active
+EMP0280,Ravi Das,31,Male,Pune,Bachelor's,Operations,Operations Manager,2023-09-28,1,64200,Excellent,7,Active
+EMP0281,Pooja Kumar,24,Female,Chennai,PhD,Engineering,Senior Engineer,2019-01-15,5,144400,Poor,3,Terminated
+EMP0282,Ravi Patel,32,Male,Chennai,PhD,Operations,Logistics Coordinator,2019-01-04,5,67600,Average,11,Terminated
+EMP0283,Lakshmi Mehta,52,Female,Pune,Diploma,Marketing,Marketing Manager,2022-04-11,2,94800,Excellent,23,Active
+EMP0284,Vikram Reddy,50,Male,Kolkata,Master's,Finance,Auditor,2021-11-08,3,93500,Excellent,23,Terminated
+EMP0285,Divya Menon,24,Female,Kolkata,Bachelor's,HR,Payroll Specialist,2017-12-07,7,80900,Excellent,21,Terminated
+EMP0286,Nikhil Bose,49,Male,Kolkata,Master's,Marketing,Marketing Analyst,2020-05-27,4,65100,Poor,26,Active
+EMP0287,Arjun Pillai,53,Male,Bangalore,Master's,Sales,Business Development Rep,2015-11-03,9,97800,Average,8,Active
+EMP0288,Lakshmi Bose,51,Female,Hyderabad,Diploma,Sales,Sales Executive,2023-12-26,1,74000,Excellent,10,Active
+EMP0289,Vikram Reddy,22,Male,Delhi,Bachelor's,HR,HR Executive,2023-11-18,1,71400,Average,6,Resigned
+EMP0290,Meera Bose,51,Female,Pune,PhD,Engineering,Senior Engineer,2021-04-13,3,136400,Poor,11,Terminated
+EMP0291,Arjun Iyer,55,Male,Mumbai,PhD,Marketing,SEO Specialist,2022-11-15,2,43200,Good,26,Active
+EMP0292,Suresh Das,29,Male,Kolkata,Diploma,Sales,Sales Manager,2017-06-02,7,71200,Average,13,Active
+EMP0293,Amit Menon,54,Male,Hyderabad,Master's,HR,Payroll Specialist,2020-08-05,4,36600,Excellent,26,Resigned
+EMP0294,Pradeep Das,28,Male,Hyderabad,Diploma,Sales,Sales Manager,2022-05-17,2,77800,Average,13,Resigned
+EMP0295,Suresh Reddy,50,Male,Delhi,Master's,Marketing,SEO Specialist,2016-07-19,8,75900,Average,27,Terminated
+EMP0296,Karthik Rajan,44,Male,Chennai,Master's,Finance,Finance Manager,2022-12-19,2,66400,Average,24,Terminated
+EMP0297,Sowmya Rao,40,Female,Mumbai,Diploma,Customer Support,Customer Success Manager,2015-02-22,9,65700,Excellent,1,Active
+EMP0298,Suresh Pillai,25,Male,Kolkata,PhD,Marketing,Content Strategist,2017-04-15,7,95600,Excellent,14,Active
+EMP0299,Pradeep Pillai,37,Male,Kolkata,PhD,Finance,Auditor,2022-10-09,2,48700,Poor,21,Active
+EMP0300,Pradeep Nair,36,Male,Mumbai,PhD,Sales,Business Development Rep,2023-06-20,1,75200,Good,9,Terminated
+EMP0301,Rahul Patel,29,Male,Mumbai,Diploma,Operations,Logistics Coordinator,2015-06-16,9,67700,,18,Active
+EMP0302,Aishwarya Menon,31,Female,Kolkata,PhD,Sales,Sales Executive,2021-09-10,3,43700,Average,18,Active
+EMP0303,Shreya Rajan,54,Female,Bangalore,Master's,Sales,Sales Executive,2019-08-31,5,78600,Poor,7,Active
+EMP0304,Meera Nair,22,Female,Delhi,Bachelor's,Sales,Business Development Rep,2022-07-02,2,60500,Good,29,Terminated
+EMP0305,Lakshmi Menon,46,Female,Kolkata,PhD,Customer Support,Support Agent,2021-01-21,3,45200,Average,16,Resigned
+EMP0306,Rajesh Singh,32,Male,Hyderabad,Bachelor's,Engineering,Software Engineer,2022-01-11,2,60400,Good,26,Terminated
+EMP0307,Sowmya Bose,23,Female,Chennai,Diploma,Engineering,Senior Engineer,2023-01-15,1,94100,Excellent,5,Active
+EMP0308,Siddharth Nair,50,Male,Chennai,Diploma,HR,Payroll Specialist,2019-11-09,5,,Poor,17,Terminated
+EMP0309,Amit Rao,26,Male,Chennai,PhD,Finance,Financial Analyst,2020-08-21,4,58300,Average,9,Resigned
+EMP0310,Saranya Pillai,32,Female,Mumbai,Master's,Engineering,QA Engineer,2016-07-12,8,158300,Average,9,Terminated
+EMP0311,Priya Singh,31,Female,Delhi,Bachelor's,Customer Support,Customer Success Manager,2015-06-21,9,40400,Poor,30,Resigned
+EMP0312,Ananya Reddy,31,Female,Chennai,Master's,Operations,Logistics Coordinator,2017-01-23,7,56800,Average,5,Active
+EMP0313,Ravi Verma,26,Male,Pune,PhD,Finance,Auditor,2022-07-14,2,50900,Excellent,18,Active
+EMP0314,Nikhil Pillai,40,Male,Delhi,Bachelor's,Sales,Sales Executive,2017-03-03,7,66300,Poor,21,Active
+EMP0315,Revathi Iyer,22,Female,Kolkata,PhD,HR,Recruiter,2017-10-05,7,58200,Poor,11,Active
+EMP0316,Pooja Mehta,53,Female,Kolkata,Bachelor's,Marketing,SEO Specialist,2016-12-20,8,91200,Excellent,26,Active
+EMP0317,Aishwarya Menon,26,Female,Mumbai,Bachelor's,Operations,Operations Analyst,2020-09-08,4,73600,Poor,29,Resigned
+EMP0318,Sowmya Verma,47,Female,Delhi,Master's,Sales,Account Manager,2023-08-29,1,74700,Good,16,Active
+EMP0319,Nikhil Rajan,32,Male,Pune,Master's,Customer Support,Customer Success Manager,2020-01-02,5,39800,Good,15,Terminated
+EMP0320,Ananya Sharma,36,Female,Hyderabad,Bachelor's,Marketing,SEO Specialist,2022-07-01,2,51700,Average,29,Active
+EMP0321,Divya Rao,38,Female,Bangalore,Master's,Finance,Finance Manager,2019-03-23,5,95900,Excellent,12,Resigned
+EMP0322,Meera Bose,53,Female,Mumbai,Diploma,Customer Support,Support Lead,2021-10-10,3,30000,Good,7,Active
+EMP0323,Rahul Patel,29,Male,Pune,Master's,Sales,Account Manager,2019-08-26,5,94000,Excellent,15,Active
+EMP0324,Priya Rajan,32,Female,Mumbai,Master's,Engineering,Senior Engineer,2022-01-22,2,118400,Good,8,Active
+EMP0325,Nithya Das,40,Female,Mumbai,Bachelor's,Operations,Operations Analyst,2017-06-06,7,71600,Poor,7,Active
+EMP0326,Deepak Pillai,32,Male,Mumbai,PhD,Finance,Finance Manager,2020-02-01,4,,Poor,3,Active
+EMP0327,Saranya Patel,33,Female,Hyderabad,Diploma,Finance,Financial Analyst,2021-11-23,3,49900,Excellent,21,Active
+EMP0328,Siddharth Verma,49,Male,Kolkata,Diploma,Operations,Logistics Coordinator,2019-02-26,5,42500,Poor,15,Active
+EMP0329,Arun Patel,36,Male,Mumbai,Bachelor's,Marketing,Marketing Manager,2018-03-06,6,83900,Poor,0,Active
+EMP0330,Sanjay Kumar,42,Male,Delhi,Diploma,HR,Recruiter,2019-01-23,5,41100,Poor,8,Terminated
+EMP0331,Nithya Nair,35,Female,Bangalore,Diploma,Operations,Operations Manager,2021-03-11,3,86300,Poor,17,Active
+EMP0332,Nithya Iyer,47,Female,Mumbai,Master's,Customer Support,Customer Success Manager,2022-05-24,2,34700,Poor,3,Terminated
+EMP0333,Revathi Singh,32,Female,Delhi,Diploma,Finance,Financial Analyst,2022-02-17,2,42100,Good,13,Active
+EMP0334,Divya Das,47,Female,Hyderabad,PhD,Engineering,QA Engineer,2022-12-24,2,,Good,14,Terminated
+EMP0335,Ananya Kumar,54,Female,Mumbai,Master's,Customer Support,Customer Success Manager,2021-11-24,3,,Excellent,20,Active
+EMP0336,Revathi Reddy,47,Female,Delhi,Master's,Marketing,Marketing Manager,2020-10-21,4,43800,Excellent,9,Active
+EMP0337,Meera Bose,34,Female,Hyderabad,Diploma,Marketing,Content Strategist,2019-07-13,5,75200,Average,16,Active
+EMP0338,Meera Sharma,38,Female,Kolkata,PhD,Customer Support,Customer Success Manager,2022-10-14,2,56600,Poor,10,Active
+EMP0339,Bhavana Das,52,Female,Pune,Bachelor's,Customer Support,Support Agent,2017-11-22,7,38400,Good,7,Terminated
+EMP0340,Shreya Singh,37,Female,Delhi,PhD,Engineering,DevOps Engineer,2016-01-16,8,117300,Average,29,Active
+EMP0341,Siddharth Das,34,Male,Mumbai,Diploma,Marketing,Content Strategist,2023-04-08,1,49100,Good,7,Active
+EMP0342,Sneha Verma,27,Female,Bangalore,Diploma,Engineering,Software Engineer,2021-11-19,3,55700,Excellent,19,Active
+EMP0343,Pooja Patel,39,Female,Delhi,Diploma,Customer Support,Customer Success Manager,2017-06-28,7,37700,Poor,1,Active
+EMP0344,Manoj Sharma,51,Male,Delhi,PhD,Operations,Logistics Coordinator,2022-09-24,2,31600,Good,3,Active
+EMP0345,Sneha Singh,39,Female,Hyderabad,Diploma,Marketing,Content Strategist,2021-11-16,3,61200,Good,6,Active
+EMP0346,Saranya Reddy,33,Female,Bangalore,Master's,Marketing,Marketing Manager,2021-06-16,3,82900,Excellent,25,Terminated
+EMP0347,Ananya Patel,31,Female,Kolkata,Diploma,Customer Support,Customer Success Manager,2015-02-09,9,48800,Poor,20,Active
+EMP0348,Kavya Nair,47,Female,Hyderabad,Bachelor's,Finance,Financial Analyst,2022-09-29,2,62700,Good,26,Active
+EMP0349,Kavya Iyer,44,Female,Delhi,Bachelor's,Marketing,SEO Specialist,2019-08-14,5,49000,Good,20,Resigned
+EMP0350,Meera Iyer,53,Female,Pune,Diploma,Operations,Logistics Coordinator,2015-11-18,9,70800,Average,30,Active
+EMP0351,Lakshmi Pillai,26,Female,Pune,Bachelor's,Finance,Auditor,2016-10-25,8,92800,Average,9,Active
+EMP0352,Kavya Menon,55,Female,Pune,Diploma,HR,HR Manager,2019-08-23,5,45300,Excellent,7,Active
+EMP0353,Karthik Patel,28,Male,Delhi,Bachelor's,HR,HR Executive,2020-04-22,4,68400,Excellent,24,Active
+EMP0354,Vikram Pillai,36,Male,Delhi,Master's,HR,HR Manager,2023-04-10,1,50000,Good,26,Active
+EMP0355,Saranya Menon,51,Female,Delhi,PhD,Marketing,Marketing Manager,2021-02-24,3,66500,Good,14,Resigned
+EMP0356,Shreya Pillai,41,Female,Bangalore,PhD,Operations,Logistics Coordinator,2020-05-26,4,69200,Excellent,11,Active
+EMP0357,Arjun Singh,44,Male,Bangalore,PhD,Customer Support,Support Agent,2020-04-05,4,33200,Poor,0,Active
+EMP0358,Amit Kumar,34,Male,Pune,Diploma,Finance,Finance Manager,2021-04-15,3,101200,Good,23,Active
+EMP0359,Suresh Sharma,55,Male,Mumbai,PhD,HR,Recruiter,2018-03-12,6,82000,Average,27,Active
+EMP0360,Nikhil Mehta,39,Male,Delhi,Diploma,Finance,Auditor,2017-02-08,7,85800,Good,0,Active
+EMP0361,Sneha Rao,36,Female,Hyderabad,Bachelor's,HR,HR Executive,2016-09-09,8,43000,Good,9,Active
+EMP0362,Pooja Rao,43,Female,Chennai,Bachelor's,Customer Support,Support Agent,2023-06-02,1,35200,Average,17,Active
+EMP0363,Saranya Reddy,29,Female,Hyderabad,Master's,Customer Support,Support Agent,2019-04-26,5,59100,Excellent,23,Active
+EMP0364,Manoj Reddy,42,Male,Hyderabad,Master's,Operations,Operations Manager,2022-01-21,2,78900,Excellent,20,Active
+EMP0365,Ravi Pillai,37,Male,Chennai,Diploma,Sales,Sales Executive,2018-08-22,6,41000,,12,Resigned
+EMP0366,Deepak Verma,31,Male,Chennai,PhD,Operations,Operations Manager,2023-08-24,1,36900,Good,21,Active
+EMP0367,Arjun Iyer,28,Male,Pune,Master's,Operations,Operations Analyst,2020-06-21,4,,Average,6,Active
+EMP0368,Suresh Menon,50,Male,Mumbai,PhD,Engineering,QA Engineer,2021-02-01,3,145900,Good,17,Resigned
+EMP0369,Saranya Bose,26,Female,Chennai,Master's,Finance,Accountant,2020-01-15,4,82900,Average,24,Active
+EMP0370,Siddharth Kumar,37,Male,Delhi,PhD,Finance,Finance Manager,2023-02-01,1,50200,Poor,21,Active
+EMP0371,Meera Reddy,29,Female,Mumbai,Bachelor's,Operations,Operations Manager,2020-11-13,4,75700,Excellent,27,Active
+EMP0372,Vikram Kumar,53,Male,Mumbai,PhD,Finance,Auditor,2015-07-21,9,96600,Excellent,20,Active
+EMP0373,Manoj Verma,45,Male,Bangalore,Diploma,Operations,Operations Analyst,2019-02-20,5,91800,Excellent,16,Resigned
+EMP0374,Divya Rajan,28,Female,Pune,Master's,Finance,Financial Analyst,2020-12-17,4,94100,Good,7,Resigned
+EMP0375,Aishwarya Sharma,44,Female,Delhi,Diploma,Customer Support,Customer Success Manager,2022-11-17,2,54400,Good,12,Active
+EMP0376,Bhavana Iyer,45,Female,Mumbai,Diploma,Marketing,SEO Specialist,2023-07-28,1,77900,Average,18,Resigned
+EMP0377,Meera Mehta,22,Female,Chennai,Bachelor's,HR,Payroll Specialist,2018-03-11,6,72200,Good,9,Active
+EMP0378,Priya Verma,39,Female,Mumbai,Master's,Customer Support,Customer Success Manager,2016-01-22,8,39000,Average,8,Active
+EMP0379,Suresh Verma,47,Male,Mumbai,Master's,Marketing,Marketing Analyst,2023-03-27,1,42000,Average,15,Active
+EMP0380,Deepak Pillai,46,Male,Hyderabad,Bachelor's,Marketing,Marketing Analyst,2023-10-01,1,39800,Average,29,Active
+EMP0381,Pradeep Pillai,22,Male,Delhi,Diploma,Customer Support,Customer Success Manager,2015-08-10,9,59100,Excellent,18,Active
+EMP0382,Rahul Kumar,47,Male,Hyderabad,Diploma,Operations,Logistics Coordinator,2023-06-11,1,70700,Excellent,9,Active
+EMP0383,Divya Mehta,47,Female,Mumbai,PhD,Finance,Financial Analyst,2015-12-15,9,106000,Poor,24,Terminated
+EMP0384,Lakshmi Pillai,55,Female,Pune,Master's,Finance,Accountant,2017-09-19,7,56700,Poor,29,Active
+EMP0385,Lakshmi Iyer,42,Female,Bangalore,PhD,Marketing,Content Strategist,2021-08-29,3,79600,Average,19,Active
+EMP0386,Manoj Kumar,34,Male,Delhi,PhD,Customer Support,Support Agent,2016-09-30,8,36500,Excellent,29,Active
+EMP0387,Priya Iyer,41,Female,Delhi,Diploma,Operations,Operations Analyst,2020-04-13,4,36200,Good,6,Terminated
+EMP0388,Shreya Mehta,23,Female,Chennai,Diploma,Finance,Accountant,2021-07-15,3,110800,Average,9,Active
+EMP0389,Priya Mehta,26,Female,Chennai,Diploma,Operations,Operations Analyst,2022-05-28,2,51500,Average,9,Active
+EMP0390,Arun Singh,42,Male,Delhi,Diploma,Operations,Operations Analyst,2021-09-11,3,66900,Good,30,Active
+EMP0391,Arjun Rajan,43,Male,Bangalore,Diploma,Finance,Finance Manager,2019-05-31,5,63300,Average,11,Terminated
+EMP0392,Revathi Kumar,46,Female,Hyderabad,Bachelor's,Operations,Operations Manager,2021-03-23,3,51200,Good,21,Active
+EMP0393,Arun Rajan,49,Male,Pune,PhD,Finance,Accountant,2021-10-15,3,87400,Good,4,Active
+EMP0394,Ravi Patel,49,Male,Delhi,Master's,Marketing,Content Strategist,2022-05-11,2,73700,Average,17,Active
+EMP0395,Saranya Menon,42,Female,Kolkata,Diploma,Sales,Sales Executive,2019-08-12,5,61900,Average,6,Active
+EMP0396,Nithya Das,36,Female,Kolkata,Master's,Finance,Accountant,2022-09-16,2,45900,Excellent,15,Terminated
+EMP0397,Aishwarya Pillai,46,Female,Chennai,Diploma,Marketing,Content Strategist,2020-04-24,4,47400,,13,Active
+EMP0398,Lakshmi Rajan,34,Female,Bangalore,Master's,Operations,Logistics Coordinator,2015-09-28,9,54200,Poor,27,Terminated
+EMP0399,Revathi Kumar,42,Female,Chennai,Diploma,Finance,Auditor,2021-11-09,3,114300,Excellent,14,Resigned
+EMP0400,Sanjay Singh,46,Male,Kolkata,Bachelor's,HR,HR Executive,2017-02-16,7,58900,Poor,26,Active
+EMP0401,Nithya Menon,31,Female,Kolkata,Diploma,Engineering,Tech Lead,2022-03-31,2,110600,Excellent,18,Active
+EMP0402,Arun Reddy,23,Male,Chennai,Master's,Marketing,Marketing Manager,2020-02-02,4,81500,Good,8,Active
+EMP0403,Pradeep Rao,29,Male,Kolkata,Diploma,Engineering,Software Engineer,2022-02-10,2,98900,Poor,16,Terminated
+EMP0404,Priya Verma,31,Female,Bangalore,Master's,Sales,Account Manager,2016-08-15,8,62400,Excellent,9,Active
+EMP0405,Sowmya Patel,34,Female,Kolkata,Bachelor's,Engineering,Senior Engineer,2021-12-25,3,84800,,15,Active
+EMP0406,Ananya Rajan,51,Female,Delhi,Diploma,Finance,Auditor,2019-12-15,5,59100,Excellent,8,Active
+EMP0407,Arjun Patel,44,Male,Chennai,Bachelor's,Sales,Sales Executive,2016-08-18,8,95500,Average,1,Active
+EMP0408,Nikhil Nair,51,Male,Hyderabad,PhD,Finance,Accountant,2015-05-27,9,62200,Average,26,Active
+EMP0409,Suresh Mehta,39,Male,Mumbai,PhD,Sales,Sales Executive,2020-11-28,4,68400,Good,19,Terminated
+EMP0410,Manoj Rao,40,Male,Delhi,Diploma,Operations,Logistics Coordinator,2021-10-29,3,53800,Average,18,Active
+EMP0411,Pooja Verma,40,Female,Kolkata,Master's,Sales,Sales Manager,2015-01-07,9,47700,Poor,3,Terminated
+EMP0412,Lakshmi Kumar,35,Female,Kolkata,Bachelor's,Marketing,SEO Specialist,2022-03-08,2,52000,Average,2,Active
+EMP0413,Revathi Kumar,43,Female,Mumbai,Diploma,Engineering,DevOps Engineer,2023-02-15,1,126300,Excellent,10,Active
+EMP0414,Bhavana Mehta,30,Female,Kolkata,Diploma,Customer Support,Support Agent,2016-09-28,8,68000,Average,26,Active
+EMP0415,Nithya Rao,23,Female,Mumbai,Master's,Operations,Operations Manager,2021-06-23,3,78500,Average,8,Active
+EMP0416,Sowmya Singh,46,Female,Chennai,Master's,Customer Support,Support Agent,2021-09-03,3,36000,Average,8,Terminated
+EMP0417,Rajesh Mehta,35,Male,Chennai,PhD,Customer Support,Support Lead,2016-12-17,8,42500,Excellent,14,Active
+EMP0418,Karthik Iyer,42,Male,Pune,Master's,HR,HR Manager,2023-08-18,1,38000,Good,1,Active
+EMP0419,Arjun Nair,27,Male,Delhi,PhD,Engineering,Tech Lead,2020-03-27,4,58900,Average,24,Active
+EMP0420,Ananya Rajan,42,Female,Bangalore,Diploma,Marketing,SEO Specialist,2022-07-11,2,,Good,3,Active
+EMP0421,Karthik Singh,39,Male,Chennai,Master's,Marketing,SEO Specialist,2022-11-25,2,89900,Good,9,Active
+EMP0422,Priya Patel,25,Female,Mumbai,Bachelor's,Engineering,QA Engineer,2019-04-21,5,60400,Poor,22,Active
+EMP0423,Nithya Iyer,34,Female,Kolkata,Bachelor's,Marketing,SEO Specialist,2023-06-23,1,86600,Good,25,Active
+EMP0424,Kavya Pillai,51,Female,Hyderabad,Diploma,Operations,Logistics Coordinator,2017-08-07,7,50200,Average,5,Active
+EMP0425,Pooja Mehta,52,Female,Kolkata,Bachelor's,Engineering,Software Engineer,2018-12-10,6,121400,Good,11,Active
+EMP0426,Arun Bose,42,Male,Delhi,Bachelor's,Operations,Operations Analyst,2023-11-20,1,51400,Poor,13,Active
+EMP0427,Manoj Reddy,35,Male,Pune,Diploma,Engineering,DevOps Engineer,2023-10-18,1,108700,Average,7,Resigned
+EMP0428,Divya Das,42,Female,Delhi,Bachelor's,Finance,Auditor,2019-12-29,5,68700,Poor,3,Active
+EMP0429,Meera Mehta,25,Female,Pune,Bachelor's,Operations,Logistics Coordinator,2017-06-10,7,89000,Excellent,4,Active
+EMP0430,Ananya Rajan,41,Female,Chennai,PhD,Operations,Operations Manager,2019-11-16,5,83100,Excellent,19,Resigned
+EMP0431,Ravi Nair,25,Male,Kolkata,Bachelor's,Engineering,DevOps Engineer,2022-11-20,2,125900,Excellent,0,Active
+EMP0432,Sowmya Iyer,47,Female,Mumbai,Diploma,Operations,Operations Manager,2019-11-18,5,70400,Good,6,Active
+EMP0433,Saranya Reddy,30,Female,Pune,Master's,Sales,Account Manager,2015-02-17,9,56100,Excellent,28,Active
+EMP0434,Vikram Patel,51,Male,Kolkata,Diploma,Operations,Operations Manager,2021-12-27,3,46100,Poor,14,Resigned
+EMP0435,Nithya Kumar,37,Female,Hyderabad,PhD,Finance,Auditor,2019-08-10,5,90900,Excellent,22,Resigned
+EMP0436,Rahul Rao,39,Male,Hyderabad,Diploma,Operations,Logistics Coordinator,2020-10-18,4,41400,Excellent,20,Active
+EMP0437,Nikhil Pillai,25,Male,Hyderabad,PhD,Finance,Finance Manager,2020-12-31,4,47300,Poor,18,Resigned
+EMP0438,Kavya Patel,41,Female,Chennai,PhD,Engineering,Tech Lead,2015-09-09,9,145700,Good,21,Resigned
+EMP0439,Suresh Mehta,54,Male,Bangalore,Bachelor's,Engineering,Senior Engineer,2023-10-16,1,87400,,8,Resigned
+EMP0440,Deepak Patel,50,Male,Mumbai,PhD,Finance,Accountant,2016-12-19,8,89700,Good,25,Active
+EMP0441,Rahul Das,53,Male,Pune,Diploma,Customer Support,Support Agent,2023-08-22,1,51100,Poor,5,Terminated
+EMP0442,Priya Pillai,25,Female,Pune,Master's,Marketing,Marketing Analyst,2020-03-15,4,67000,Average,30,Active
+EMP0443,Sowmya Rao,38,Female,Hyderabad,Master's,HR,Payroll Specialist,2020-12-12,4,60600,Average,21,Active
+EMP0444,Vikram Menon,49,Male,Pune,PhD,Finance,Finance Manager,2018-10-04,6,81700,Excellent,18,Active
+EMP0445,Pradeep Pillai,55,Male,Chennai,PhD,Finance,Accountant,2022-08-07,2,65900,Excellent,26,Terminated
+EMP0446,Nikhil Mehta,40,Male,Delhi,PhD,Marketing,Content Strategist,2017-03-01,7,41100,Excellent,21,Active
+EMP0447,Pradeep Sharma,30,Male,Pune,Diploma,Engineering,Tech Lead,2022-05-12,2,138200,Good,5,Active
+EMP0448,Nikhil Mehta,42,Male,Hyderabad,PhD,Marketing,Marketing Manager,2016-10-25,8,91400,Average,12,Active
+EMP0449,Sneha Mehta,34,Female,Delhi,Diploma,Engineering,QA Engineer,2016-12-31,8,146700,Excellent,24,Active
+EMP0450,Siddharth Mehta,28,Male,Chennai,Bachelor's,Operations,Operations Manager,2015-10-26,9,49600,Average,28,Active
+EMP0451,Siddharth Kumar,39,Male,Pune,Master's,Operations,Operations Manager,2022-11-07,2,54200,Excellent,30,Resigned
+EMP0452,Saranya Rao,36,Female,Pune,Bachelor's,Customer Support,Support Agent,2019-04-24,5,60300,Average,9,Active
+EMP0453,Rajesh Singh,27,Male,Delhi,Diploma,Customer Support,Support Lead,2023-07-12,1,45800,Good,1,Active
+EMP0454,Aishwarya Reddy,53,Female,Mumbai,Bachelor's,Engineering,DevOps Engineer,2022-02-04,2,109200,Good,0,Active
+EMP0455,Lakshmi Sharma,41,Female,Chennai,Diploma,Customer Support,Customer Success Manager,2020-12-27,4,56600,Excellent,10,Active
+EMP0456,Karthik Verma,55,Male,Chennai,Diploma,Operations,Logistics Coordinator,2022-08-09,2,66800,Good,23,Active
+EMP0457,Bhavana Menon,37,Female,Kolkata,Master's,Finance,Financial Analyst,2015-02-28,9,78700,Excellent,25,Active
+EMP0458,Ravi Bose,53,Male,Pune,Master's,Engineering,Software Engineer,2015-09-16,9,88900,Average,12,Terminated
+EMP0459,Rajesh Bose,24,Male,Kolkata,Master's,Customer Support,Support Agent,2018-10-06,6,33600,Average,13,Active
+EMP0460,Manoj Rajan,30,Male,Chennai,Bachelor's,Finance,Financial Analyst,2023-11-15,1,,Excellent,0,Active
+EMP0461,Lakshmi Rao,30,Female,Mumbai,Master's,Customer Support,Support Lead,2016-08-09,8,55300,Poor,30,Active
+EMP0462,Pradeep Mehta,41,Male,Chennai,PhD,Finance,Financial Analyst,2019-09-12,5,48800,Good,16,Active
+EMP0463,Manoj Verma,35,Male,Kolkata,PhD,Operations,Logistics Coordinator,2015-08-06,9,49300,Good,30,Terminated
+EMP0464,Nikhil Menon,45,Male,Kolkata,PhD,Engineering,Software Engineer,2017-05-08,7,114100,Average,28,Resigned
+EMP0465,Siddharth Singh,23,Male,Hyderabad,Diploma,Sales,Sales Manager,2020-10-10,4,45200,Good,18,Terminated
+EMP0466,Ananya Verma,36,Female,Mumbai,Bachelor's,Engineering,DevOps Engineer,2017-08-29,7,156100,Good,2,Active
+EMP0467,Sneha Rajan,33,Female,Bangalore,Diploma,Finance,Auditor,2019-03-10,5,65100,Good,8,Terminated
+EMP0468,Suresh Patel,51,Male,Delhi,Diploma,Engineering,QA Engineer,2016-12-02,8,159300,Good,5,Active
+EMP0469,Deepak Singh,27,Male,Bangalore,Diploma,Customer Support,Support Agent,2020-11-07,4,60800,Poor,0,Active
+EMP0470,Karthik Iyer,31,Male,Kolkata,Bachelor's,HR,Recruiter,2019-09-08,5,35800,Poor,16,Terminated
+EMP0471,Revathi Verma,50,Female,Pune,Diploma,Operations,Operations Analyst,2017-09-12,7,46900,Excellent,13,Terminated
+EMP0472,Ananya Pillai,52,Female,Hyderabad,PhD,Engineering,Software Engineer,2016-10-24,8,153700,Excellent,24,Active
+EMP0473,Amit Bose,22,Male,Chennai,Bachelor's,Marketing,Marketing Manager,2019-04-26,5,103100,Average,9,Resigned
+EMP0474,Amit Pillai,43,Male,Hyderabad,Bachelor's,Engineering,Tech Lead,2020-10-09,4,143400,Excellent,11,Active
+EMP0475,Sneha Pillai,35,Female,Hyderabad,Master's,Finance,Financial Analyst,2018-10-03,6,80900,Excellent,23,Terminated
+EMP0476,Amit Rao,42,Male,Chennai,PhD,Customer Support,Support Agent,2017-12-31,7,71300,Poor,2,Active
+EMP0477,Manoj Rao,50,Male,Chennai,PhD,Finance,Finance Manager,2023-12-21,1,49500,Poor,12,Active
+EMP0478,Vikram Patel,31,Male,Hyderabad,Diploma,Marketing,Marketing Analyst,2016-09-08,8,99700,Excellent,21,Active
+EMP0479,Lakshmi Mehta,23,Female,Pune,PhD,Operations,Logistics Coordinator,2017-02-13,7,37900,Good,10,Resigned
+EMP0480,Pooja Das,55,Female,Mumbai,Diploma,Operations,Logistics Coordinator,2020-02-19,4,56600,Good,25,Active
+EMP0481,Revathi Bose,44,Female,Delhi,PhD,Engineering,Senior Engineer,2020-02-11,4,78900,Good,9,Terminated
+EMP0482,Rahul Rajan,42,Male,Delhi,Master's,Engineering,Software Engineer,2019-12-11,5,90400,Good,22,Active
+EMP0483,Sneha Iyer,41,Female,Bangalore,Bachelor's,HR,Recruiter,2015-04-13,9,,Good,4,Active
+EMP0484,Sowmya Rao,40,Female,Pune,Master's,Marketing,Marketing Manager,2023-12-20,1,74000,Poor,3,Active
+EMP0485,Nikhil Singh,23,Male,Bangalore,Diploma,Engineering,DevOps Engineer,2021-12-04,3,83100,Average,1,Active
+EMP0486,Amit Menon,34,Male,Hyderabad,Bachelor's,Customer Support,Support Lead,2015-12-09,9,71200,Excellent,6,Resigned
+EMP0487,Siddharth Pillai,31,Male,Bangalore,Diploma,Marketing,Marketing Manager,2019-02-23,5,66600,Excellent,11,Active
+EMP0488,Karthik Rao,50,Male,Kolkata,PhD,HR,Payroll Specialist,2016-11-01,8,88700,Poor,18,Active
+EMP0489,Pooja Bose,26,Female,Mumbai,Diploma,Finance,Finance Manager,2015-12-29,9,52900,Average,17,Active
+EMP0490,Karthik Patel,40,Male,Delhi,Diploma,Customer Support,Support Lead,2015-06-22,9,60100,Average,23,Active
+EMP0491,Rahul Nair,29,Male,Chennai,PhD,Marketing,Marketing Manager,2019-09-05,5,54300,Good,24,Active
+EMP0492,Deepak Rao,49,Male,Delhi,PhD,Marketing,Marketing Manager,2022-01-16,2,82900,Excellent,23,Active
+EMP0493,Deepak Kumar,51,Male,Hyderabad,Master's,Sales,Account Manager,2019-01-03,5,48700,Average,20,Active
+EMP0494,Kavya Singh,54,Female,Kolkata,Master's,Operations,Operations Analyst,2023-08-06,1,72000,Excellent,5,Resigned
+EMP0495,Kavya Pillai,45,Female,Mumbai,Bachelor's,Operations,Logistics Coordinator,2020-12-28,4,72900,Good,16,Active
+EMP0496,Meera Menon,35,Female,Hyderabad,Master's,Sales,Sales Executive,2020-08-23,4,53000,Excellent,29,Active
+EMP0497,Manoj Iyer,30,Male,Bangalore,Diploma,Marketing,SEO Specialist,2021-09-13,3,72900,Good,0,Terminated
+EMP0498,Ravi Rao,41,Male,Kolkata,Master's,Sales,Sales Manager,2017-05-09,7,48200,,25,Terminated
+EMP0499,Revathi Reddy,28,Female,Chennai,Bachelor's,Engineering,Senior Engineer,2023-11-23,1,138000,Excellent,29,Active
+EMP0500,Amit Sharma,35,Male,Kolkata,Master's,Customer Support,Support Agent,2017-01-26,7,52000,Excellent,23,Active
+EMP0501,Meera Patel,37,Female,Mumbai,Bachelor's,Customer Support,Customer Success Manager,2016-02-10,8,38600,Good,30,Terminated
+EMP0502,Pradeep Sharma,45,Male,Hyderabad,Master's,Sales,Business Development Rep,2019-12-06,5,82700,Good,13,Active
+EMP0503,Amit Iyer,29,Male,Pune,Master's,Engineering,QA Engineer,2020-07-23,4,154900,Average,1,Resigned
+EMP0504,Kavya Mehta,50,Female,Kolkata,Master's,Finance,Finance Manager,2021-03-18,3,96700,Poor,2,Active
+EMP0505,Sneha Kumar,28,Female,Mumbai,Diploma,Operations,Operations Manager,2019-11-30,5,73500,Excellent,12,Active
+EMP0506,Pradeep Menon,45,Male,Mumbai,Master's,Sales,Sales Executive,2018-10-19,6,58400,Poor,26,Active
+EMP0507,Revathi Verma,47,Female,Kolkata,PhD,Customer Support,Customer Success Manager,2020-05-02,4,57500,Average,14,Active
+EMP0508,Ananya Pillai,28,Female,Hyderabad,Bachelor's,Sales,Sales Executive,2015-10-07,9,84600,Excellent,19,Active
+EMP0509,Amit Sharma,53,Male,Delhi,Diploma,Operations,Logistics Coordinator,2017-04-07,7,62200,Poor,8,Active
+EMP0510,Amit Kumar,46,Male,Chennai,Diploma,HR,HR Executive,2018-07-12,6,63100,Poor,5,Active
+EMP0511,Bhavana Rao,49,Female,Delhi,Master's,Sales,Business Development Rep,2018-07-03,6,89700,Poor,21,Active
+EMP0512,Pooja Singh,54,Female,Pune,Bachelor's,Customer Support,Support Agent,2019-05-23,5,49800,Poor,11,Resigned
+EMP0513,Arjun Das,45,Male,Chennai,PhD,Engineering,Senior Engineer,2023-04-28,1,127100,Average,13,Active
+EMP0514,Priya Pillai,37,Female,Chennai,PhD,Sales,Sales Manager,2021-08-24,3,46300,Excellent,10,Active
+EMP0515,Manoj Pillai,54,Male,Chennai,Diploma,Customer Support,Support Lead,2017-12-28,7,39800,Poor,10,Resigned
+EMP0516,Amit Mehta,43,Male,Bangalore,Diploma,Engineering,Senior Engineer,2020-08-21,4,142300,Good,11,Resigned
+EMP0517,Ravi Bose,40,Male,Delhi,PhD,Finance,Accountant,2015-07-14,9,94000,Poor,23,Active
+EMP0518,Deepak Iyer,55,Male,Kolkata,Diploma,Marketing,Marketing Analyst,2019-10-16,5,54800,Excellent,9,Terminated
+EMP0519,Ananya Reddy,54,Female,Pune,Diploma,HR,HR Manager,2022-07-13,2,67600,Excellent,16,Terminated
+EMP0520,Nikhil Bose,39,Male,Mumbai,Diploma,Operations,Operations Manager,2021-05-07,3,83000,Excellent,11,Resigned
+EMP0521,Saranya Reddy,26,Female,Pune,Master's,HR,HR Manager,2019-08-17,5,52900,Good,19,Active
+EMP0522,Karthik Kumar,51,Male,Chennai,Diploma,Sales,Account Manager,2021-04-12,3,104100,Poor,6,Terminated
+EMP0523,Revathi Verma,24,Female,Delhi,Diploma,Marketing,Content Strategist,2023-10-10,1,36900,Excellent,9,Active
+EMP0524,Bhavana Iyer,27,Female,Pune,Diploma,Operations,Logistics Coordinator,2023-02-14,1,40200,Excellent,16,Resigned
+EMP0525,Pooja Menon,29,Female,Mumbai,PhD,Engineering,Senior Engineer,2018-09-10,6,134400,Good,4,Active
+EMP0526,Pooja Reddy,53,Female,Pune,PhD,Marketing,Marketing Analyst,2022-11-05,2,44700,Poor,7,Active
+EMP0527,Rajesh Mehta,41,Male,Kolkata,Bachelor's,Operations,Operations Manager,2022-03-28,2,70800,Excellent,21,Terminated
+EMP0528,Sowmya Rao,37,Female,Chennai,Diploma,Marketing,Marketing Analyst,2019-05-11,5,42000,Average,29,Active
+EMP0529,Ravi Menon,42,Male,Hyderabad,Diploma,Sales,Business Development Rep,2023-11-08,1,38300,Excellent,23,Active
+EMP0530,Bhavana Menon,32,Female,Pune,PhD,Customer Support,Support Agent,2020-09-04,4,34200,Poor,26,Resigned
+EMP0531,Amit Kumar,33,Male,Mumbai,Diploma,Operations,Logistics Coordinator,2023-11-15,1,72800,Excellent,20,Active
+EMP0532,Rahul Rajan,48,Male,Pune,PhD,Finance,Accountant,2020-01-24,4,105800,Average,18,Active
+EMP0533,Vikram Reddy,47,Male,Pune,Diploma,Marketing,Content Strategist,2021-05-25,3,51300,Excellent,19,Resigned
+EMP0534,Ananya Nair,25,Female,Chennai,Diploma,Operations,Operations Analyst,2021-12-06,3,63300,Average,30,Active
+EMP0535,Arjun Rao,51,Male,Kolkata,Diploma,Finance,Auditor,2016-04-30,8,85100,Good,26,Active
+EMP0536,Lakshmi Patel,35,Female,Hyderabad,PhD,HR,Recruiter,2023-02-24,1,75300,Poor,25,Active
+EMP0537,Ananya Das,45,Female,Pune,Diploma,HR,Recruiter,2015-12-18,9,43800,Good,12,Active
+EMP0538,Aishwarya Das,28,Female,Delhi,Bachelor's,Marketing,Marketing Analyst,2015-08-02,9,65600,Poor,30,Active
+EMP0539,Arjun Nair,41,Male,Mumbai,Diploma,Finance,Auditor,2022-07-12,2,90200,Excellent,8,Resigned
+EMP0540,Bhavana Mehta,42,Female,Mumbai,Diploma,Sales,Sales Executive,2016-08-03,8,58000,Average,15,Active
+EMP0541,Bhavana Reddy,38,Female,Hyderabad,PhD,Marketing,SEO Specialist,2019-11-20,5,97700,Average,24,Terminated
+EMP0542,Priya Rajan,36,Female,Hyderabad,Master's,Sales,Sales Executive,2015-05-27,9,75100,Good,13,Terminated
+EMP0543,Priya Mehta,51,Female,Bangalore,Diploma,Marketing,Marketing Manager,2016-04-05,8,106200,Good,2,Active
+EMP0544,Pradeep Singh,35,Male,Kolkata,Bachelor's,Customer Support,Support Lead,2020-11-24,4,42200,Excellent,15,Active
+EMP0545,Suresh Pillai,47,Male,Chennai,PhD,Operations,Operations Analyst,2021-08-15,3,40400,Good,14,Active
+EMP0546,Sowmya Nair,43,Female,Kolkata,Bachelor's,Finance,Financial Analyst,2022-05-11,2,101700,Good,1,Active
+EMP0547,Pradeep Sharma,27,Male,Chennai,Diploma,Finance,Auditor,2017-11-11,7,70300,Poor,27,Active
+EMP0548,Kavya Pillai,31,Female,Delhi,Bachelor's,Customer Support,Customer Success Manager,2018-05-07,6,65500,Average,4,Terminated
+EMP0549,Shreya Rajan,46,Female,Kolkata,Diploma,HR,Payroll Specialist,2018-01-04,6,77300,Poor,13,Active
+EMP0550,Sowmya Reddy,54,Female,Delhi,PhD,Engineering,Software Engineer,2020-03-13,4,142500,Good,20,Active
+EMP0551,Lakshmi Sharma,41,Female,Delhi,Master's,Customer Support,Support Lead,2016-06-07,8,52800,Poor,1,Active
+EMP0552,Sanjay Reddy,51,Male,Chennai,PhD,HR,HR Executive,2018-12-26,6,56900,Excellent,3,Resigned
+EMP0553,Ravi Reddy,48,Male,Hyderabad,PhD,Engineering,Software Engineer,2018-07-09,6,138900,Poor,19,Terminated
+EMP0554,Karthik Patel,38,Male,Chennai,Bachelor's,Engineering,Tech Lead,2019-11-12,5,122700,Excellent,0,Active
+EMP0555,Saranya Pillai,53,Female,Pune,PhD,Operations,Logistics Coordinator,2021-12-08,3,88600,Average,30,Terminated
+EMP0556,Divya Patel,34,Female,Hyderabad,Bachelor's,Sales,Sales Executive,2015-03-07,9,88600,Excellent,20,Active
+EMP0557,Vikram Nair,31,Male,Pune,Diploma,Customer Support,Support Lead,2019-09-25,5,30100,Good,22,Active
+EMP0558,Ravi Mehta,34,Male,Chennai,PhD,Finance,Accountant,2021-05-21,3,93200,Average,20,Active
+EMP0559,Saranya Mehta,40,Female,Pune,Bachelor's,Operations,Logistics Coordinator,2020-06-19,4,62200,Poor,1,Active
+EMP0560,Shreya Sharma,52,Female,Pune,Bachelor's,Marketing,Marketing Manager,2020-07-19,4,,Average,13,Active
+EMP0561,Manoj Iyer,54,Male,Bangalore,Master's,HR,Recruiter,2021-08-04,3,78500,Poor,23,Active
+EMP0562,Revathi Mehta,35,Female,Mumbai,PhD,Customer Support,Support Agent,2022-09-30,2,34400,Poor,6,Active
+EMP0563,Pooja Nair,25,Female,Mumbai,Bachelor's,Sales,Sales Manager,2019-01-09,5,97900,Average,5,Terminated
+EMP0564,Amit Sharma,29,Male,Bangalore,Master's,Marketing,Marketing Manager,2016-05-09,8,79500,Poor,25,Active
+EMP0565,Bhavana Patel,54,Female,Chennai,Bachelor's,Customer Support,Customer Success Manager,2022-12-03,2,31100,Poor,25,Active
+EMP0566,Ravi Singh,28,Male,Pune,Master's,Engineering,Tech Lead,2022-01-24,2,67300,Average,9,Active
+EMP0567,Aishwarya Bose,45,Female,Kolkata,PhD,Engineering,Senior Engineer,2016-07-18,8,,Poor,24,Active
+EMP0568,Meera Nair,27,Female,Kolkata,PhD,Finance,Accountant,2019-03-06,5,100600,Good,24,Active
+EMP0569,Amit Reddy,51,Male,Kolkata,PhD,HR,Payroll Specialist,2015-05-02,9,66200,Excellent,16,Terminated
+EMP0570,Lakshmi Verma,25,Female,Chennai,Diploma,Sales,Business Development Rep,2023-07-07,1,39300,Good,20,Resigned
+EMP0571,Lakshmi Reddy,41,Female,Hyderabad,PhD,Operations,Logistics Coordinator,2018-11-10,6,36900,Good,14,Terminated
+EMP0572,Aishwarya Iyer,47,Female,Pune,Master's,Customer Support,Customer Success Manager,2018-05-20,6,34000,Average,23,Active
+EMP0573,Ananya Sharma,55,Female,Delhi,PhD,Finance,Finance Manager,2023-06-28,1,61500,Excellent,8,Resigned
+EMP0574,Shreya Sharma,45,Female,Kolkata,PhD,Operations,Operations Analyst,2022-01-12,2,65700,Excellent,20,Active
+EMP0575,Manoj Iyer,44,Male,Hyderabad,PhD,Sales,Sales Manager,2018-03-11,6,90500,Good,16,Terminated
+EMP0576,Ravi Verma,28,Male,Chennai,Master's,Marketing,Marketing Manager,2022-12-24,2,65600,Excellent,13,Active
+EMP0577,Divya Iyer,47,Female,Pune,Diploma,Operations,Logistics Coordinator,2017-12-16,7,78900,Poor,29,Active
+EMP0578,Saranya Patel,53,Female,Mumbai,Diploma,Sales,Sales Manager,2016-06-13,8,114000,Excellent,14,Terminated
+EMP0579,Bhavana Sharma,29,Female,Bangalore,Bachelor's,Finance,Auditor,2019-02-22,5,80900,Good,9,Active
+EMP0580,Priya Verma,48,Female,Kolkata,Bachelor's,Sales,Sales Manager,2018-06-03,6,99700,Good,23,Active
+EMP0581,Divya Bose,52,Female,Kolkata,PhD,Engineering,QA Engineer,2021-05-06,3,112900,Poor,23,Active
+EMP0582,Sanjay Pillai,50,Male,Mumbai,Master's,HR,Payroll Specialist,2023-03-01,1,52000,Poor,28,Active
+EMP0583,Aishwarya Nair,32,Female,Pune,Bachelor's,Operations,Operations Analyst,2021-05-31,3,77100,Average,3,Resigned
+EMP0584,Deepak Singh,54,Male,Bangalore,Bachelor's,Sales,Business Development Rep,2016-05-07,8,90900,Good,25,Active
+EMP0585,Divya Verma,47,Female,Hyderabad,Bachelor's,Finance,Finance Manager,2020-07-06,4,47800,Poor,0,Active
+EMP0586,Divya Sharma,32,Female,Bangalore,PhD,Engineering,Tech Lead,2016-08-12,8,82100,Excellent,30,Active
+EMP0587,Sneha Kumar,41,Female,Bangalore,Diploma,Operations,Operations Analyst,2016-02-09,8,57300,Poor,12,Active
+EMP0588,Karthik Rajan,37,Male,Chennai,Diploma,Customer Support,Customer Success Manager,2020-09-14,4,63200,Excellent,10,Active
+EMP0589,Priya Reddy,23,Female,Kolkata,PhD,Operations,Operations Analyst,2021-03-19,3,74100,Excellent,17,Active
+EMP0590,Pooja Sharma,54,Female,Delhi,Master's,Customer Support,Customer Success Manager,2023-10-12,1,35600,Good,30,Active
+EMP0591,Priya Kumar,40,Female,Bangalore,Master's,Customer Support,Support Lead,2015-01-03,10,43800,Average,26,Resigned
+EMP0592,Deepak Bose,24,Male,Pune,Master's,Finance,Finance Manager,2023-04-16,1,50300,Excellent,3,Active
+EMP0593,Bhavana Reddy,43,Female,Pune,PhD,Sales,Account Manager,2023-06-11,1,82800,Average,10,Active
+EMP0594,Priya Menon,22,Female,Delhi,Diploma,Operations,Operations Analyst,2015-01-18,9,47500,Good,28,Active
+EMP0595,Shreya Sharma,26,Female,Kolkata,Bachelor's,Customer Support,Customer Success Manager,2022-07-13,2,57900,Excellent,12,Active
+EMP0596,Ravi Verma,22,Male,Mumbai,Bachelor's,Customer Support,Customer Success Manager,2020-03-10,4,,Poor,23,Active
+EMP0597,Ananya Sharma,41,Female,Hyderabad,Master's,Customer Support,Customer Success Manager,2017-08-17,7,66100,Excellent,28,Active
+EMP0598,Karthik Bose,29,Male,Mumbai,PhD,Operations,Operations Manager,2021-05-20,3,67300,Good,21,Resigned
+EMP0599,Vikram Das,30,Male,Kolkata,PhD,Sales,Sales Executive,2021-05-23,3,,Average,21,Active
+EMP0600,Sowmya Singh,49,Female,Pune,Bachelor's,HR,HR Executive,2018-08-16,6,66300,Average,16,Active
+EMP0601,Siddharth Rao,39,Male,Mumbai,Diploma,Sales,Sales Executive,2020-12-20,4,69000,Excellent,10,Active
+EMP0602,Pradeep Rajan,26,Male,Pune,Master's,Operations,Operations Manager,2017-03-17,7,49000,Average,20,Active
+EMP0603,Deepak Verma,38,Male,Kolkata,Master's,Operations,Operations Manager,2016-03-17,8,68900,Average,10,Active
+EMP0604,Amit Das,28,Male,Hyderabad,Diploma,Finance,Auditor,2021-06-29,3,58400,Excellent,10,Active
+EMP0605,Arjun Menon,25,Male,Chennai,PhD,Customer Support,Support Lead,2021-11-06,3,55200,Excellent,17,Terminated
+EMP0606,Divya Das,36,Female,Delhi,Bachelor's,Customer Support,Support Lead,2020-02-01,4,56000,Poor,3,Resigned
+EMP0607,Manoj Singh,28,Male,Kolkata,Bachelor's,Marketing,Content Strategist,2015-02-20,9,91600,Excellent,26,Resigned
+EMP0608,Meera Reddy,33,Female,Delhi,Master's,HR,Payroll Specialist,2016-07-17,8,37900,Good,13,Active
+EMP0609,Kavya Das,31,Female,Delhi,Diploma,Finance,Accountant,2018-06-18,6,91500,Average,18,Active
+EMP0610,Sanjay Bose,25,Male,Bangalore,Diploma,Customer Support,Customer Success Manager,2018-11-09,6,43300,Good,6,Active
+EMP0611,Nithya Rao,41,Female,Hyderabad,Diploma,Marketing,SEO Specialist,2018-09-08,6,49900,Poor,7,Active
+EMP0612,Manoj Das,52,Male,Kolkata,PhD,Sales,Sales Manager,2023-04-20,1,60600,Poor,0,Active
+EMP0613,Sanjay Sharma,50,Male,Mumbai,Master's,Sales,Account Manager,2022-01-29,2,75900,Excellent,6,Active
+EMP0614,Aishwarya Patel,33,Female,Kolkata,Master's,Marketing,Content Strategist,2015-03-30,9,55900,Excellent,21,Active
+EMP0615,Rajesh Menon,51,Male,Kolkata,Master's,Sales,Account Manager,2019-02-23,5,94400,Good,19,Resigned
+EMP0616,Vikram Patel,34,Male,Mumbai,Diploma,Sales,Sales Manager,2022-10-15,2,61800,Poor,29,Terminated
+EMP0617,Ravi Singh,42,Male,Delhi,Master's,Marketing,Content Strategist,2015-08-07,9,85900,Good,28,Resigned
+EMP0618,Revathi Pillai,32,Female,Hyderabad,Diploma,Finance,Financial Analyst,2023-06-05,1,108000,Poor,5,Resigned
+EMP0619,Aishwarya Mehta,47,Female,Hyderabad,Bachelor's,HR,HR Manager,2017-04-28,7,50800,Poor,6,Active
+EMP0620,Siddharth Bose,27,Male,Bangalore,Master's,Marketing,SEO Specialist,2023-06-06,1,41600,Poor,7,Resigned
+EMP0621,Lakshmi Mehta,48,Female,Mumbai,PhD,HR,Payroll Specialist,2020-07-30,4,55000,Poor,14,Active
+EMP0622,Bhavana Sharma,39,Female,Delhi,Master's,Marketing,Marketing Analyst,2016-02-08,8,47900,Average,6,Active
+EMP0623,Kavya Rao,39,Female,Kolkata,Master's,Customer Support,Customer Success Manager,2022-11-30,2,38000,Average,9,Active
+EMP0624,Lakshmi Bose,52,Female,Mumbai,Master's,Finance,Financial Analyst,2019-06-17,5,74600,Good,16,Active
+EMP0625,Aishwarya Bose,27,Female,Hyderabad,PhD,HR,HR Manager,2017-02-08,7,71600,Poor,14,Active
+EMP0626,Deepak Bose,22,Male,Hyderabad,Diploma,Sales,Account Manager,2022-05-22,2,92100,Average,13,Active
+EMP0627,Meera Das,24,Female,Mumbai,Master's,Engineering,Tech Lead,2016-09-21,8,106600,Poor,30,Active
+EMP0628,Manoj Sharma,41,Male,Kolkata,Bachelor's,Marketing,Marketing Manager,2016-12-03,8,56900,Good,22,Active
+EMP0629,Vikram Menon,35,Male,Chennai,Master's,HR,HR Manager,2018-04-07,6,82700,Excellent,11,Active
+EMP0630,Lakshmi Patel,48,Female,Kolkata,Diploma,Engineering,Senior Engineer,2023-05-02,1,60300,Good,6,Active
+EMP0631,Sneha Das,34,Female,Chennai,Diploma,Finance,Finance Manager,2018-02-02,6,69500,Good,26,Active
+EMP0632,Bhavana Das,51,Female,Pune,Bachelor's,HR,Payroll Specialist,2023-04-08,1,37100,Poor,26,Active
+EMP0633,Arun Rajan,51,Male,Pune,Diploma,Sales,Business Development Rep,2022-05-23,2,50900,Excellent,30,Active
+EMP0634,Suresh Menon,40,Male,Hyderabad,Bachelor's,Operations,Logistics Coordinator,2022-10-30,2,81600,Good,24,Active
+EMP0635,Amit Sharma,48,Male,Chennai,Diploma,Finance,Finance Manager,2016-11-06,8,80500,Excellent,2,Active
+EMP0636,Lakshmi Iyer,34,Female,Mumbai,Diploma,Operations,Operations Manager,2015-06-04,9,39800,Excellent,10,Terminated
+EMP0637,Divya Sharma,50,Female,Delhi,Master's,Finance,Accountant,2020-04-12,4,79900,Good,3,Active
+EMP0638,Sneha Sharma,39,Female,Chennai,Master's,Operations,Operations Analyst,2019-12-10,5,57800,Good,28,Terminated
+EMP0639,Ravi Pillai,28,Male,Chennai,Diploma,Customer Support,Customer Success Manager,2022-09-28,2,48000,Excellent,1,Resigned
+EMP0640,Rajesh Menon,27,Male,Pune,Bachelor's,Sales,Sales Manager,2019-09-24,5,39500,Average,21,Active
+EMP0641,Amit Bose,32,Male,Bangalore,Master's,Customer Support,Customer Success Manager,2015-06-30,9,66200,Excellent,17,Active
+EMP0642,Lakshmi Sharma,28,Female,Bangalore,PhD,Sales,Sales Manager,2018-08-17,6,49600,Poor,0,Terminated
+EMP0643,Nikhil Bose,24,Male,Pune,Bachelor's,Marketing,SEO Specialist,2017-06-14,7,69800,Poor,17,Active
+EMP0644,Suresh Sharma,46,Male,Hyderabad,Master's,Finance,Finance Manager,2018-09-22,6,73800,Average,2,Terminated
+EMP0645,Lakshmi Singh,36,Female,Mumbai,Bachelor's,Operations,Logistics Coordinator,2017-08-10,7,43700,Excellent,23,Active
+EMP0646,Arjun Patel,40,Male,Pune,Master's,Marketing,Marketing Manager,2016-09-13,8,67000,Excellent,19,Active
+EMP0647,Sneha Nair,55,Female,Kolkata,Diploma,Marketing,Marketing Analyst,2022-04-08,2,90400,Excellent,23,Active
+EMP0648,Siddharth Menon,36,Male,Chennai,Diploma,Operations,Operations Analyst,2020-11-05,4,54600,Poor,2,Terminated
+EMP0649,Arjun Pillai,30,Male,Delhi,Bachelor's,Sales,Sales Manager,2016-12-12,8,86800,Good,2,Active
+EMP0650,Pradeep Rajan,33,Male,Mumbai,Master's,Sales,Business Development Rep,2018-05-26,6,63800,Poor,8,Terminated
+EMP0651,Lakshmi Reddy,50,Female,Chennai,Diploma,Sales,Business Development Rep,2020-08-31,4,80500,Good,24,Active
+EMP0652,Nithya Singh,38,Female,Delhi,Diploma,Sales,Sales Manager,2020-03-14,4,60800,Average,19,Active
+EMP0653,Ananya Patel,22,Female,Bangalore,PhD,Sales,Sales Executive,2020-07-05,4,66900,Poor,12,Terminated
+EMP0654,Arun Menon,46,Male,Pune,Master's,Engineering,Software Engineer,2017-03-06,7,114300,Average,15,Resigned
+EMP0655,Nikhil Reddy,37,Male,Pune,Diploma,HR,Recruiter,2015-05-22,9,69800,Excellent,20,Terminated
+EMP0656,Suresh Rajan,22,Male,Pune,Bachelor's,Finance,Accountant,2023-08-24,1,53900,Poor,18,Active
+EMP0657,Siddharth Reddy,38,Male,Bangalore,PhD,Sales,Business Development Rep,2020-08-12,4,104800,Poor,23,Resigned
+EMP0658,Vikram Pillai,31,Male,Mumbai,PhD,Finance,Finance Manager,2023-05-25,1,68800,Average,26,Active
+EMP0659,Shreya Reddy,49,Female,Hyderabad,Master's,Operations,Operations Manager,2016-12-23,8,61600,Good,5,Active
+EMP0660,Rahul Rajan,34,Male,Mumbai,PhD,Engineering,Senior Engineer,2019-08-02,5,116700,Excellent,2,Terminated
+EMP0661,Divya Iyer,37,Female,Bangalore,Diploma,Engineering,Tech Lead,2020-06-10,4,141000,Excellent,24,Active
+EMP0662,Vikram Rajan,46,Male,Bangalore,PhD,Finance,Financial Analyst,2020-06-13,4,106800,Poor,21,Active
+EMP0663,Rajesh Pillai,25,Male,Hyderabad,PhD,HR,Payroll Specialist,2018-09-14,6,39600,Poor,23,Terminated
+EMP0664,Deepak Sharma,39,Male,Hyderabad,Master's,Customer Support,Customer Success Manager,2019-02-18,5,63400,Poor,21,Resigned
+EMP0665,Priya Pillai,42,Female,Delhi,Diploma,Marketing,Marketing Analyst,2017-08-14,7,85200,Poor,25,Terminated
+EMP0666,Sowmya Bose,46,Female,Delhi,PhD,Operations,Operations Analyst,2021-10-22,3,48700,Good,25,Resigned
+EMP0667,Manoj Verma,51,Male,Mumbai,Master's,Engineering,DevOps Engineer,2020-01-02,5,72600,Good,5,Active
+EMP0668,Vikram Reddy,32,Male,Bangalore,PhD,Operations,Operations Analyst,2019-04-20,5,85600,Good,21,Terminated
+EMP0669,Nikhil Patel,27,Male,Pune,PhD,Finance,Auditor,2017-07-05,7,61200,Average,23,Active
+EMP0670,Revathi Rajan,29,Female,Delhi,PhD,Sales,Account Manager,2015-12-26,9,48400,Average,29,Terminated
+EMP0671,Sneha Bose,22,Female,Hyderabad,PhD,Marketing,Marketing Manager,2015-09-11,9,88000,Good,10,Active
+EMP0672,Sanjay Pillai,28,Male,Kolkata,Diploma,Finance,Accountant,2015-02-07,9,110700,Good,7,Active
+EMP0673,Sneha Rao,24,Female,Kolkata,PhD,Operations,Logistics Coordinator,2018-06-19,6,74400,Excellent,22,Active
+EMP0674,Manoj Nair,25,Male,Kolkata,PhD,Operations,Operations Manager,2016-09-17,8,100000,Good,7,Terminated
+EMP0675,Ravi Mehta,41,Male,Pune,Master's,Operations,Operations Manager,2015-03-30,9,77600,Average,15,Active
+EMP0676,Divya Singh,40,Female,Bangalore,Master's,Operations,Operations Manager,2022-11-11,2,68500,Excellent,24,Active
+EMP0677,Ravi Menon,51,Male,Mumbai,Master's,Operations,Operations Manager,2021-06-22,3,43200,Poor,6,Active
+EMP0678,Rajesh Rao,28,Male,Chennai,Master's,Customer Support,Customer Success Manager,2019-03-23,5,62400,Good,11,Active
+EMP0679,Vikram Singh,49,Male,Chennai,Master's,Operations,Operations Manager,2022-01-12,2,80000,Good,7,Active
+EMP0680,Nikhil Rao,51,Male,Chennai,Diploma,HR,HR Executive,2018-02-01,6,82500,Poor,3,Active
+EMP0681,Arjun Das,39,Male,Pune,Bachelor's,Finance,Auditor,2023-11-28,1,65000,Poor,13,Terminated
+EMP0682,Divya Rao,33,Female,Delhi,Diploma,Customer Support,Customer Success Manager,2022-11-10,2,28900,Poor,26,Active
+EMP0683,Amit Verma,33,Male,Chennai,Master's,Sales,Sales Executive,2015-01-22,9,84100,Average,4,Active
+EMP0684,Sanjay Nair,27,Male,Pune,Bachelor's,Customer Support,Support Agent,2020-09-04,4,49500,Good,0,Active
+EMP0685,Sowmya Singh,53,Female,Chennai,PhD,HR,Recruiter,2020-11-10,4,60000,Good,21,Terminated
+EMP0686,Rahul Nair,30,Male,Delhi,Master's,Customer Support,Support Agent,2021-08-20,3,51700,Good,13,Terminated
+EMP0687,Sowmya Menon,51,Female,Mumbai,Bachelor's,Sales,Business Development Rep,2017-11-07,7,88900,Good,2,Resigned
+EMP0688,Pradeep Iyer,48,Male,Mumbai,Master's,Finance,Accountant,2018-07-19,6,104500,Excellent,2,Resigned
+EMP0689,Divya Iyer,45,Female,Chennai,PhD,Operations,Operations Analyst,2023-09-22,1,48700,Good,3,Active
+EMP0690,Divya Verma,55,Female,Delhi,PhD,Engineering,Senior Engineer,2021-08-08,3,116300,Average,27,Terminated
+EMP0691,Siddharth Kumar,46,Male,Delhi,Master's,Sales,Account Manager,2018-11-14,6,99200,Poor,4,Active
+EMP0692,Nikhil Patel,39,Male,Delhi,Bachelor's,Sales,Business Development Rep,2023-02-19,1,78100,Good,13,Terminated
+EMP0693,Revathi Mehta,39,Female,Hyderabad,Diploma,Finance,Finance Manager,2020-11-02,4,74500,Excellent,24,Active
+EMP0694,Vikram Rao,32,Male,Hyderabad,Bachelor's,Sales,Sales Executive,2015-12-13,9,93500,Poor,21,Active
+EMP0695,Pooja Singh,29,Female,Hyderabad,Diploma,Operations,Logistics Coordinator,2015-02-26,9,78400,Excellent,22,Terminated
+EMP0696,Deepak Mehta,33,Male,Hyderabad,Bachelor's,Sales,Sales Manager,2019-02-12,5,93900,Average,15,Active
+EMP0697,Rajesh Menon,29,Male,Chennai,PhD,Operations,Operations Analyst,2018-05-10,6,68300,Average,23,Active
+EMP0698,Bhavana Menon,24,Female,Delhi,Diploma,Operations,Logistics Coordinator,2021-12-05,3,63800,Average,14,Active
+EMP0699,Rajesh Menon,47,Male,Chennai,PhD,Operations,Operations Analyst,2015-02-06,9,49100,Poor,16,Active
+EMP0700,Siddharth Mehta,38,Male,Hyderabad,Master's,Engineering,Senior Engineer,2020-04-11,4,106900,Average,28,Active
+EMP0701,Manoj Pillai,32,Male,Mumbai,Master's,Customer Support,Support Lead,2018-12-19,6,56500,Average,3,Terminated
+EMP0702,Lakshmi Rao,32,Female,Hyderabad,Master's,Marketing,Marketing Analyst,2020-05-17,4,82800,Excellent,17,Active
+EMP0703,Rajesh Verma,54,Male,Mumbai,Diploma,Customer Support,Support Lead,2016-06-22,8,38000,Excellent,11,Active
+EMP0704,Arjun Pillai,49,Male,Chennai,Bachelor's,Customer Support,Support Lead,2019-11-15,5,61900,Average,24,Active
+EMP0705,Karthik Nair,38,Male,Kolkata,Master's,Customer Support,Support Agent,2022-06-22,2,54900,Poor,25,Terminated
+EMP0706,Karthik Bose,36,Male,Mumbai,Bachelor's,Finance,Accountant,2016-06-25,8,,Average,13,Active
+EMP0707,Arun Reddy,36,Male,Hyderabad,Master's,Finance,Finance Manager,2018-10-08,6,104700,Excellent,20,Resigned
+EMP0708,Kavya Iyer,37,Female,Pune,PhD,Operations,Operations Manager,2015-07-14,9,47200,Excellent,23,Active
+EMP0709,Bhavana Das,33,Female,Chennai,PhD,Engineering,QA Engineer,2020-07-05,4,,Average,21,Active
+EMP0710,Rajesh Iyer,55,Male,Hyderabad,PhD,Operations,Operations Manager,2017-09-02,7,80100,Good,2,Resigned
+EMP0711,Arjun Das,34,Male,Pune,Diploma,Operations,Operations Analyst,2016-02-09,8,47900,Average,15,Active
+EMP0712,Arjun Patel,38,Male,Chennai,PhD,Sales,Business Development Rep,2019-02-08,5,73300,Excellent,15,Active
+EMP0713,Rahul Das,40,Male,Kolkata,Bachelor's,Marketing,Content Strategist,2021-05-08,3,44700,Good,12,Terminated
+EMP0714,Rahul Mehta,46,Male,Mumbai,Diploma,Customer Support,Customer Success Manager,2019-06-30,5,47400,Good,18,Active
+EMP0715,Shreya Rao,38,Female,Chennai,PhD,Operations,Logistics Coordinator,2017-06-21,7,63100,Average,5,Resigned
+EMP0716,Priya Pillai,30,Female,Delhi,PhD,Sales,Account Manager,2023-11-13,1,,Good,3,Active
+EMP0717,Meera Sharma,38,Female,Pune,Master's,Operations,Logistics Coordinator,2019-07-31,5,,Average,26,Active
+EMP0718,Sneha Nair,28,Female,Mumbai,Diploma,Engineering,Tech Lead,2022-05-02,2,87300,Good,10,Active
+EMP0719,Sneha Mehta,45,Female,Mumbai,Master's,Sales,Business Development Rep,2020-05-16,4,47200,Good,26,Active
+EMP0720,Aishwarya Patel,23,Female,Mumbai,PhD,Operations,Operations Manager,2016-10-29,8,52100,Good,2,Active
+EMP0721,Divya Rao,22,Female,Kolkata,Bachelor's,Finance,Accountant,2019-03-28,5,93000,Excellent,26,Active
+EMP0722,Amit Sharma,22,Male,Chennai,Bachelor's,Marketing,Content Strategist,2023-11-17,1,43600,Average,6,Terminated
+EMP0723,Saranya Patel,52,Female,Delhi,Master's,Marketing,SEO Specialist,2017-09-25,7,,Average,3,Terminated
+EMP0724,Divya Singh,31,Female,Mumbai,Bachelor's,Customer Support,Support Lead,2017-07-07,7,33300,Poor,11,Active
+EMP0725,Sowmya Menon,53,Female,Chennai,Master's,Operations,Operations Analyst,2016-03-27,8,50400,Average,19,Active
+EMP0726,Siddharth Kumar,33,Male,Hyderabad,Diploma,Finance,Accountant,2020-12-12,4,90800,Good,4,Terminated
+EMP0727,Meera Menon,53,Female,Kolkata,PhD,Engineering,DevOps Engineer,2017-12-23,7,147800,Excellent,20,Active
+EMP0728,Aishwarya Verma,26,Female,Chennai,Bachelor's,Customer Support,Support Lead,2021-06-24,3,59000,Average,10,Active
+EMP0729,Meera Iyer,52,Female,Mumbai,Diploma,HR,Payroll Specialist,2021-09-30,3,75300,Good,12,Terminated
+EMP0730,Shreya Singh,46,Female,Chennai,Bachelor's,Customer Support,Support Agent,2021-07-07,3,57400,Good,7,Terminated
+EMP0731,Rajesh Singh,29,Male,Mumbai,Bachelor's,HR,Recruiter,2018-12-01,6,58400,Average,26,Active
+EMP0732,Ananya Rajan,25,Female,Hyderabad,Master's,Customer Support,Support Agent,2016-04-25,8,44600,Excellent,11,Terminated
+EMP0733,Manoj Bose,23,Male,Chennai,Master's,Finance,Accountant,2019-02-05,5,61800,Good,18,Active
+EMP0734,Manoj Rao,52,Male,Chennai,Diploma,Sales,Account Manager,2023-02-07,1,58500,Excellent,4,Active
+EMP0735,Sanjay Patel,49,Male,Mumbai,Diploma,Engineering,QA Engineer,2021-03-19,3,146300,Average,13,Terminated
+EMP0736,Sanjay Reddy,47,Male,Hyderabad,Bachelor's,Sales,Sales Manager,2017-06-15,7,66800,Excellent,15,Terminated
+EMP0737,Sneha Kumar,49,Female,Delhi,Master's,Customer Support,Support Lead,2018-01-10,6,36400,Excellent,24,Active
+EMP0738,Sneha Singh,35,Female,Chennai,Bachelor's,Engineering,Software Engineer,2023-06-26,1,91400,Good,7,Terminated
+EMP0739,Deepak Verma,25,Male,Hyderabad,PhD,HR,HR Executive,2016-01-17,8,54400,Average,16,Active
+EMP0740,Sneha Rao,43,Female,Delhi,Diploma,Operations,Operations Analyst,2023-04-25,1,63700,Good,25,Active
+EMP0741,Suresh Patel,27,Male,Mumbai,Bachelor's,Sales,Business Development Rep,2023-01-21,1,51100,Good,30,Terminated
+EMP0742,Pooja Verma,40,Female,Kolkata,PhD,Sales,Account Manager,2021-12-28,3,95200,Excellent,21,Terminated
+EMP0743,Rahul Das,28,Male,Chennai,Bachelor's,Operations,Operations Manager,2016-08-07,8,89300,Excellent,14,Active
+EMP0744,Vikram Nair,44,Male,Hyderabad,Bachelor's,Finance,Finance Manager,2015-10-19,9,81100,Poor,8,Active
+EMP0745,Vikram Das,45,Male,Bangalore,PhD,HR,HR Executive,2019-07-01,5,65700,Good,16,Active
+EMP0746,Divya Pillai,38,Female,Kolkata,Bachelor's,HR,Payroll Specialist,2021-12-17,3,,Good,17,Terminated
+EMP0747,Lakshmi Patel,26,Female,Hyderabad,Master's,Finance,Auditor,2019-05-10,5,109900,Excellent,14,Active
+EMP0748,Divya Sharma,47,Female,Bangalore,Diploma,Sales,Sales Executive,2017-03-28,7,69500,Excellent,19,Active
+EMP0749,Divya Nair,31,Female,Chennai,Diploma,HR,HR Executive,2016-08-19,8,79500,Average,19,Resigned
+EMP0750,Revathi Reddy,25,Female,Bangalore,Master's,HR,Recruiter,2015-04-04,9,96800,Poor,20,Active
+EMP0751,Lakshmi Sharma,48,Female,Chennai,Master's,Marketing,Marketing Manager,2022-07-05,2,95600,Good,28,Active
+EMP0752,Sneha Rajan,52,Female,Pune,Diploma,Marketing,Marketing Manager,2021-01-02,3,82600,,18,Active
+EMP0753,Vikram Rao,31,Male,Hyderabad,PhD,Operations,Logistics Coordinator,2022-06-13,2,86300,Excellent,29,Active
+EMP0754,Amit Pillai,55,Male,Delhi,Bachelor's,HR,HR Manager,2020-01-20,4,45400,Poor,3,Terminated
+EMP0755,Arun Rao,46,Male,Kolkata,Master's,Finance,Accountant,2018-11-26,6,,Excellent,11,Active
+EMP0756,Pradeep Mehta,48,Male,Kolkata,Diploma,Operations,Operations Manager,2018-12-11,6,62700,Poor,10,Resigned
+EMP0757,Meera Patel,49,Female,Delhi,Diploma,Finance,Accountant,2018-03-13,6,108100,Average,30,Terminated
+EMP0758,Amit Bose,23,Male,Hyderabad,Diploma,Engineering,Software Engineer,2016-02-29,8,129300,Excellent,16,Terminated
+EMP0759,Saranya Reddy,51,Female,Kolkata,Diploma,Sales,Sales Manager,2016-04-13,8,59500,Excellent,29,Active
+EMP0760,Priya Iyer,54,Female,Mumbai,PhD,Customer Support,Support Agent,2018-01-01,7,50200,Poor,0,Terminated
+EMP0761,Arjun Patel,55,Male,Delhi,PhD,Customer Support,Support Lead,2018-10-04,6,46200,Poor,12,Active
+EMP0762,Amit Menon,30,Male,Mumbai,Diploma,Finance,Auditor,2023-03-02,1,64100,Average,13,Resigned
+EMP0763,Sanjay Sharma,47,Male,Chennai,PhD,Operations,Logistics Coordinator,2021-03-14,3,43900,Good,0,Active
+EMP0764,Arjun Das,27,Male,Pune,Diploma,Operations,Logistics Coordinator,2015-04-14,9,85600,Poor,24,Terminated
+EMP0765,Suresh Rajan,46,Male,Pune,PhD,Finance,Accountant,2022-05-24,2,48900,Excellent,0,Active
+EMP0766,Vikram Mehta,28,Male,Hyderabad,Master's,Finance,Financial Analyst,2018-03-02,6,79600,Excellent,27,Active
+EMP0767,Divya Mehta,48,Female,Bangalore,Bachelor's,Customer Support,Support Agent,2020-06-15,4,33700,Poor,20,Active
+EMP0768,Suresh Kumar,29,Male,Delhi,PhD,Sales,Sales Executive,2018-11-21,6,77300,Excellent,23,Active
+EMP0769,Sanjay Kumar,35,Male,Mumbai,PhD,Finance,Accountant,2016-04-15,8,72900,Average,2,Active
+EMP0770,Kavya Mehta,44,Female,Hyderabad,PhD,Sales,Sales Executive,2020-03-28,4,89900,Poor,29,Resigned
+EMP0771,Lakshmi Sharma,32,Female,Delhi,Master's,Finance,Finance Manager,2023-02-05,1,105300,Poor,23,Active
+EMP0772,Deepak Reddy,44,Male,Delhi,PhD,HR,Recruiter,2022-02-04,2,37100,Good,8,Active
+EMP0773,Lakshmi Kumar,42,Female,Mumbai,Diploma,Engineering,Senior Engineer,2023-11-14,1,75600,Good,21,Active
+EMP0774,Divya Kumar,43,Female,Chennai,Master's,Marketing,Marketing Analyst,2020-03-21,4,76800,Good,12,Resigned
+EMP0775,Vikram Singh,48,Male,Chennai,Diploma,Marketing,Marketing Analyst,2018-07-25,6,95200,Good,25,Active
+EMP0776,Lakshmi Sharma,32,Female,Chennai,PhD,Engineering,QA Engineer,2021-08-18,3,103100,Excellent,20,Active
+EMP0777,Siddharth Mehta,47,Male,Chennai,Bachelor's,Marketing,Content Strategist,2020-12-25,4,71900,Average,2,Terminated
+EMP0778,Aishwarya Nair,44,Female,Chennai,Diploma,Marketing,SEO Specialist,2015-11-23,9,81700,Poor,12,Resigned
+EMP0779,Saranya Pillai,28,Female,Bangalore,Bachelor's,Engineering,DevOps Engineer,2017-07-06,7,59900,Good,27,Active
+EMP0780,Vikram Rajan,22,Male,Bangalore,Bachelor's,Operations,Operations Manager,2017-11-29,7,85600,Excellent,2,Active
+EMP0781,Kavya Rao,51,Female,Hyderabad,Bachelor's,Sales,Sales Manager,2016-06-01,8,62400,Poor,21,Terminated
+EMP0782,Sowmya Mehta,52,Female,Delhi,Master's,Marketing,SEO Specialist,2016-01-12,8,61100,Excellent,26,Active
+EMP0783,Pradeep Sharma,25,Male,Mumbai,Master's,Engineering,QA Engineer,2015-02-23,9,146400,Poor,15,Active
+EMP0784,Revathi Nair,31,Female,Kolkata,Bachelor's,Operations,Operations Manager,2016-06-16,8,54300,Poor,19,Active
+EMP0785,Vikram Nair,41,Male,Chennai,Bachelor's,HR,Recruiter,2016-08-26,8,66000,Excellent,28,Active
+EMP0786,Sowmya Singh,38,Female,Mumbai,Bachelor's,HR,HR Manager,2021-03-04,3,39200,Poor,12,Active
+EMP0787,Manoj Nair,25,Male,Hyderabad,Diploma,Marketing,Marketing Analyst,2023-03-18,1,63600,Average,5,Active
+EMP0788,Shreya Reddy,37,Female,Bangalore,Bachelor's,Engineering,Software Engineer,2017-06-18,7,69400,Excellent,7,Resigned
+EMP0789,Siddharth Das,47,Male,Mumbai,Diploma,Operations,Logistics Coordinator,2019-05-29,5,41400,Average,5,Active
+EMP0790,Aishwarya Das,28,Female,Bangalore,Master's,Marketing,Marketing Analyst,2020-08-23,4,102200,Poor,27,Terminated
+EMP0791,Sowmya Sharma,43,Female,Bangalore,Diploma,Sales,Sales Manager,2016-08-03,8,102300,Poor,0,Active
+EMP0792,Rahul Pillai,44,Male,Chennai,Diploma,Customer Support,Support Agent,2021-07-16,3,29600,Good,1,Active
+EMP0793,Saranya Rajan,31,Female,Pune,Bachelor's,Finance,Accountant,2016-02-14,8,89400,Poor,11,Active
+EMP0794,Kavya Iyer,44,Female,Bangalore,PhD,HR,HR Executive,2022-12-18,2,55000,Poor,21,Active
+EMP0795,Arun Bose,44,Male,Mumbai,Diploma,Sales,Sales Manager,2015-05-07,9,66200,Poor,23,Active
+EMP0796,Sowmya Sharma,55,Female,Hyderabad,Master's,Marketing,Marketing Manager,2017-12-22,7,107900,Average,18,Active
+EMP0797,Ananya Kumar,29,Female,Chennai,Diploma,Finance,Finance Manager,2023-12-02,1,101300,Average,0,Active
+EMP0798,Sowmya Patel,32,Female,Hyderabad,PhD,Finance,Finance Manager,2020-06-17,4,80300,Average,1,Active
+EMP0799,Arjun Mehta,49,Male,Mumbai,PhD,Marketing,Marketing Analyst,2022-05-28,2,90700,Excellent,11,Active
+EMP0800,Vikram Rao,34,Male,Hyderabad,Diploma,Marketing,Content Strategist,2021-07-25,3,43600,Good,29,Active
+EMP0801,Lakshmi Reddy,41,Female,Mumbai,PhD,Engineering,DevOps Engineer,2016-12-10,8,135000,Average,21,Resigned
+EMP0802,Shreya Rajan,27,Female,Kolkata,PhD,Marketing,SEO Specialist,2021-05-10,3,80500,Good,28,Active
+EMP0803,Aishwarya Iyer,51,Female,Chennai,PhD,Finance,Finance Manager,2019-10-18,5,108000,Poor,29,Active
+EMP0804,Divya Verma,37,Female,Kolkata,PhD,Sales,Account Manager,2016-06-05,8,88600,Average,27,Active
+EMP0805,Manoj Verma,51,Male,Delhi,Bachelor's,Customer Support,Customer Success Manager,2015-12-13,9,38100,Excellent,3,Active
+EMP0806,Saranya Kumar,54,Female,Pune,Bachelor's,Engineering,Tech Lead,2022-11-13,2,80000,Good,30,Resigned
+EMP0807,Suresh Pillai,53,Male,Chennai,Master's,Marketing,Marketing Analyst,2016-04-14,8,43400,Good,16,Resigned
+EMP0808,Priya Bose,47,Female,Kolkata,Bachelor's,Finance,Auditor,2016-05-13,8,89900,Poor,7,Active
+EMP0809,Saranya Pillai,49,Female,Pune,Master's,Finance,Financial Analyst,2022-02-18,2,44600,Good,7,Terminated
+EMP0810,Manoj Mehta,28,Male,Pune,Diploma,Marketing,SEO Specialist,2019-02-13,5,84100,Poor,25,Active
+EMP0811,Sneha Kumar,29,Female,Pune,Diploma,Marketing,Marketing Manager,2015-02-15,9,83100,Excellent,28,Terminated
+EMP0812,Sneha Mehta,39,Female,Pune,Bachelor's,Operations,Operations Manager,2016-10-10,8,65600,Good,16,Active
+EMP0813,Rajesh Pillai,43,Male,Bangalore,Diploma,Operations,Logistics Coordinator,2023-01-08,1,82300,Average,29,Terminated
+EMP0814,Lakshmi Mehta,54,Female,Delhi,PhD,Finance,Accountant,2016-06-14,8,96100,Average,26,Resigned
+EMP0815,Karthik Sharma,53,Male,Mumbai,Diploma,Operations,Operations Analyst,2018-08-18,6,85600,Good,23,Active
+EMP0816,Bhavana Sharma,38,Female,Delhi,Bachelor's,Engineering,Tech Lead,2015-06-03,9,154100,Poor,20,Active
+EMP0817,Divya Rao,30,Female,Bangalore,Master's,HR,Payroll Specialist,2017-03-12,7,57100,Poor,7,Terminated
+EMP0818,Vikram Das,35,Male,Delhi,Bachelor's,Engineering,Software Engineer,2016-07-29,8,60600,Poor,27,Resigned
+EMP0819,Ananya Bose,54,Female,Hyderabad,PhD,Sales,Business Development Rep,2018-12-31,6,85400,Good,13,Active
+EMP0820,Rahul Verma,28,Male,Mumbai,Bachelor's,Finance,Finance Manager,2020-08-04,4,72600,Average,26,Active
+EMP0821,Lakshmi Rao,32,Female,Delhi,PhD,Marketing,Marketing Analyst,2015-11-03,9,85100,Good,16,Resigned
+EMP0822,Deepak Mehta,24,Male,Mumbai,PhD,Marketing,Marketing Analyst,2019-09-23,5,56600,Average,6,Active
+EMP0823,Karthik Mehta,24,Male,Hyderabad,PhD,Engineering,Tech Lead,2015-10-17,9,120100,Excellent,30,Resigned
+EMP0824,Arjun Mehta,44,Male,Chennai,Diploma,Finance,Accountant,2020-05-10,4,83600,Excellent,24,Active
+EMP0825,Sowmya Pillai,52,Female,Pune,Bachelor's,Operations,Operations Analyst,2019-05-05,5,86500,Good,13,Active
+EMP0826,Siddharth Das,34,Male,Delhi,PhD,Marketing,SEO Specialist,2019-11-24,5,43700,Good,0,Active
+EMP0827,Amit Kumar,37,Male,Bangalore,Bachelor's,Customer Support,Customer Success Manager,2015-11-10,9,35500,Poor,1,Active
+EMP0828,Suresh Patel,52,Male,Mumbai,Bachelor's,Finance,Auditor,2022-05-13,2,51400,Average,15,Resigned
+EMP0829,Manoj Rao,40,Male,Delhi,Master's,Marketing,SEO Specialist,2020-11-27,4,97700,Average,16,Terminated
+EMP0830,Aishwarya Das,27,Female,Delhi,Master's,HR,HR Manager,2016-07-15,8,71900,Average,6,Terminated
+EMP0831,Arjun Rajan,51,Male,Delhi,Bachelor's,Operations,Operations Manager,2015-03-29,9,67800,Average,12,Active
+EMP0832,Suresh Bose,53,Male,Mumbai,Bachelor's,Finance,Auditor,2019-04-17,5,97500,Excellent,12,Active
+EMP0833,Nikhil Nair,44,Male,Mumbai,Bachelor's,Engineering,Tech Lead,2021-10-29,3,,Average,24,Resigned
+EMP0834,Saranya Reddy,25,Female,Hyderabad,Bachelor's,Customer Support,Customer Success Manager,2021-03-16,3,56400,Average,13,Resigned
+EMP0835,Sneha Reddy,30,Female,Kolkata,Bachelor's,HR,Recruiter,2018-02-23,6,81100,Excellent,17,Active
+EMP0836,Deepak Nair,38,Male,Kolkata,Bachelor's,Marketing,SEO Specialist,2016-05-24,8,68400,,5,Active
+EMP0837,Manoj Kumar,35,Male,Delhi,Diploma,Marketing,Marketing Manager,2015-08-28,9,78900,Average,10,Resigned
+EMP0838,Revathi Verma,53,Female,Pune,Master's,Marketing,SEO Specialist,2017-07-20,7,82300,Good,1,Resigned
+EMP0839,Nikhil Singh,42,Male,Chennai,Bachelor's,Customer Support,Support Lead,2021-03-16,3,41800,Average,21,Active
+EMP0840,Deepak Rajan,26,Male,Bangalore,Diploma,Marketing,Marketing Analyst,2016-04-08,8,73800,Good,18,Active
+EMP0841,Divya Pillai,31,Female,Pune,Bachelor's,HR,HR Manager,2018-08-30,6,77200,Average,11,Active
+EMP0842,Rahul Iyer,31,Male,Pune,Bachelor's,Engineering,DevOps Engineer,2016-03-11,8,137300,Average,24,Resigned
+EMP0843,Ananya Reddy,24,Female,Delhi,Master's,Customer Support,Customer Success Manager,2019-04-10,5,33400,Good,18,Resigned
+EMP0844,Ravi Menon,52,Male,Bangalore,Diploma,Finance,Financial Analyst,2018-07-22,6,80700,Average,7,Active
+EMP0845,Manoj Iyer,37,Male,Delhi,Diploma,Operations,Operations Analyst,2023-03-21,1,58100,Excellent,16,Active
+EMP0846,Nithya Rajan,36,Female,Bangalore,Master's,HR,Payroll Specialist,2021-01-11,3,50100,Good,25,Resigned
+EMP0847,Arun Reddy,53,Male,Hyderabad,Master's,Finance,Accountant,2017-01-06,7,103200,Good,8,Active
+EMP0848,Aishwarya Sharma,49,Female,Kolkata,Bachelor's,Sales,Sales Executive,2022-09-27,2,47200,Good,16,Resigned
+EMP0849,Sneha Reddy,37,Female,Chennai,PhD,Operations,Logistics Coordinator,2016-05-02,8,61600,Excellent,2,Terminated
+EMP0850,Bhavana Reddy,49,Female,Mumbai,PhD,Operations,Operations Manager,2023-07-01,1,63200,Good,23,Terminated
+EMP0851,Rahul Menon,45,Male,Pune,Diploma,Engineering,Tech Lead,2019-04-03,5,99000,Good,18,Resigned
+EMP0852,Suresh Mehta,55,Male,Mumbai,Diploma,Marketing,Marketing Analyst,2018-03-14,6,63900,Average,1,Active
+EMP0853,Arun Singh,28,Male,Hyderabad,PhD,Marketing,SEO Specialist,2018-03-12,6,50300,Average,14,Active
+EMP0854,Nithya Verma,39,Female,Delhi,Master's,Engineering,Senior Engineer,2016-01-29,8,90200,Good,28,Active
+EMP0855,Arjun Mehta,45,Male,Mumbai,Master's,Customer Support,Support Agent,2018-02-28,6,64900,Poor,26,Resigned
+EMP0856,Manoj Menon,38,Male,Kolkata,Bachelor's,HR,Payroll Specialist,2016-07-14,8,64200,Excellent,2,Active
+EMP0857,Rajesh Patel,39,Male,Pune,Diploma,Finance,Finance Manager,2022-01-27,2,111000,Excellent,10,Terminated
+EMP0858,Siddharth Rao,42,Male,Mumbai,Master's,Customer Support,Customer Success Manager,2021-04-05,3,32700,Excellent,18,Active
+EMP0859,Suresh Mehta,33,Male,Kolkata,Diploma,Sales,Business Development Rep,2018-03-03,6,49100,,23,Resigned
+EMP0860,Manoj Singh,33,Male,Delhi,Bachelor's,Finance,Accountant,2019-09-09,5,83300,Poor,7,Terminated
+EMP0861,Siddharth Nair,40,Male,Hyderabad,Diploma,Customer Support,Support Agent,2020-06-30,4,57600,Average,9,Resigned
+EMP0862,Lakshmi Mehta,49,Female,Pune,Bachelor's,Marketing,Content Strategist,2016-12-22,8,74700,Excellent,12,Active
+EMP0863,Saranya Verma,48,Female,Chennai,Master's,Customer Support,Support Lead,2015-04-29,9,53500,Good,17,Active
+EMP0864,Lakshmi Reddy,49,Female,Mumbai,Diploma,Customer Support,Support Lead,2017-12-03,7,35900,Poor,10,Terminated
+EMP0865,Lakshmi Rajan,35,Female,Chennai,Bachelor's,Finance,Accountant,2021-11-17,3,85500,Excellent,25,Terminated
+EMP0866,Bhavana Iyer,26,Female,Kolkata,Bachelor's,Customer Support,Customer Success Manager,2020-10-25,4,43800,Good,17,Active
+EMP0867,Revathi Patel,48,Female,Kolkata,Master's,Marketing,SEO Specialist,2021-03-14,3,86100,Excellent,0,Active
+EMP0868,Revathi Mehta,40,Female,Bangalore,PhD,Engineering,Senior Engineer,2015-04-10,9,96300,Good,23,Active
+EMP0869,Sneha Bose,27,Female,Chennai,Bachelor's,Operations,Operations Manager,2015-10-30,9,80900,Poor,23,Active
+EMP0870,Vikram Rao,34,Male,Bangalore,PhD,Finance,Auditor,2023-10-20,1,83800,Excellent,14,Active
+EMP0871,Lakshmi Nair,36,Female,Delhi,Diploma,HR,HR Executive,2021-04-16,3,52700,,16,Terminated
+EMP0872,Aishwarya Reddy,50,Female,Bangalore,Master's,Marketing,Marketing Analyst,2021-06-24,3,40600,Good,15,Active
+EMP0873,Sneha Verma,28,Female,Mumbai,Master's,Operations,Operations Analyst,2017-04-30,7,74100,Good,12,Active
+EMP0874,Arjun Verma,48,Male,Pune,PhD,HR,HR Manager,2023-04-22,1,53000,Excellent,18,Active
+EMP0875,Aishwarya Rajan,53,Female,Hyderabad,Diploma,Customer Support,Customer Success Manager,2018-07-06,6,47400,Poor,16,Terminated
+EMP0876,Siddharth Sharma,46,Male,Mumbai,Master's,HR,HR Executive,2023-06-28,1,31700,Excellent,14,Active
+EMP0877,Pooja Patel,53,Female,Bangalore,Master's,Operations,Logistics Coordinator,2023-05-26,1,67200,Poor,3,Active
+EMP0878,Shreya Iyer,32,Female,Pune,Master's,Finance,Finance Manager,2018-04-03,6,120000,Good,11,Resigned
+EMP0879,Ananya Menon,32,Female,Hyderabad,Diploma,Marketing,Content Strategist,2015-02-10,9,68000,,2,Active
+EMP0880,Karthik Rao,51,Male,Mumbai,PhD,Engineering,Tech Lead,2016-01-23,8,72200,Poor,2,Resigned
+EMP0881,Rajesh Pillai,39,Male,Delhi,PhD,Engineering,Senior Engineer,2019-10-12,5,136600,Average,24,Active
+EMP0882,Vikram Das,35,Male,Kolkata,PhD,Sales,Sales Executive,2016-12-31,8,65500,Excellent,16,Active
+EMP0883,Nithya Verma,39,Female,Chennai,Diploma,Customer Support,Customer Success Manager,2017-05-07,7,39600,Good,29,Active
+EMP0884,Manoj Bose,26,Male,Hyderabad,Bachelor's,Engineering,DevOps Engineer,2016-07-15,8,128300,Poor,10,Terminated
+EMP0885,Sanjay Reddy,52,Male,Kolkata,PhD,HR,Payroll Specialist,2018-06-30,6,71100,Excellent,6,Resigned
+EMP0886,Aishwarya Patel,50,Female,Hyderabad,Diploma,Customer Support,Support Lead,2022-10-18,2,45200,Excellent,20,Resigned
+EMP0887,Saranya Mehta,44,Female,Pune,Diploma,Customer Support,Customer Success Manager,2017-05-25,7,46500,Average,0,Active
+EMP0888,Arjun Das,28,Male,Pune,PhD,Marketing,SEO Specialist,2017-11-05,7,71600,Average,8,Active
+EMP0889,Kavya Pillai,23,Female,Hyderabad,Diploma,Engineering,Tech Lead,2021-10-24,3,137200,Poor,23,Active
+EMP0890,Arjun Iyer,31,Male,Hyderabad,Master's,Engineering,Tech Lead,2016-06-23,8,71700,Excellent,20,Active
+EMP0891,Saranya Rajan,23,Female,Pune,PhD,Operations,Logistics Coordinator,2022-07-15,2,54600,,30,Resigned
+EMP0892,Lakshmi Bose,25,Female,Bangalore,Bachelor's,Operations,Logistics Coordinator,2017-03-01,7,94800,Good,2,Terminated
+EMP0893,Pradeep Singh,22,Male,Hyderabad,PhD,HR,Recruiter,2018-01-26,6,74000,Excellent,18,Active
+EMP0894,Divya Sharma,27,Female,Kolkata,Master's,Engineering,Senior Engineer,2018-07-24,6,138200,Excellent,0,Active
+EMP0895,Siddharth Rao,34,Male,Bangalore,Master's,Sales,Account Manager,2018-06-25,6,46200,Average,4,Active
+EMP0896,Suresh Menon,40,Male,Bangalore,PhD,Sales,Sales Manager,2022-10-28,2,65900,Excellent,18,Active
+EMP0897,Saranya Pillai,24,Female,Hyderabad,Diploma,Operations,Operations Analyst,2016-09-29,8,78600,Good,11,Terminated
+EMP0898,Ananya Iyer,39,Female,Hyderabad,Bachelor's,Operations,Logistics Coordinator,2020-10-03,4,84400,Average,8,Active
+EMP0899,Manoj Patel,45,Male,Chennai,Diploma,HR,HR Manager,2022-05-20,2,69700,Average,20,Terminated
+EMP0900,Arun Mehta,28,Male,Mumbai,Master's,Marketing,SEO Specialist,2019-01-06,5,,Poor,24,Resigned
+EMP0901,Nithya Das,47,Female,Bangalore,Diploma,Operations,Operations Manager,2017-09-24,7,60400,Average,15,Resigned
+EMP0902,Amit Menon,48,Male,Chennai,Diploma,Finance,Financial Analyst,2023-09-06,1,77000,Poor,5,Resigned
+EMP0903,Deepak Verma,43,Male,Hyderabad,Bachelor's,Sales,Sales Manager,2016-01-06,8,61600,Average,5,Active
+EMP0904,Siddharth Patel,27,Male,Pune,Master's,Marketing,SEO Specialist,2017-08-25,7,97600,Poor,7,Active
+EMP0905,Priya Mehta,28,Female,Pune,Diploma,Sales,Account Manager,2021-03-02,3,83900,Good,12,Active
+EMP0906,Arun Patel,47,Male,Hyderabad,PhD,Marketing,Content Strategist,2018-03-05,6,100000,Poor,17,Resigned
+EMP0907,Karthik Menon,37,Male,Delhi,PhD,Finance,Accountant,2019-01-23,5,92200,Excellent,24,Resigned
+EMP0908,Rahul Mehta,35,Male,Mumbai,PhD,Sales,Sales Executive,2019-11-19,5,47100,Poor,13,Terminated
+EMP0909,Priya Nair,32,Female,Bangalore,Diploma,HR,Recruiter,2022-08-26,2,65300,Poor,21,Active
+EMP0910,Revathi Verma,42,Female,Hyderabad,Master's,Engineering,Senior Engineer,2021-06-11,3,120300,Poor,20,Active
+EMP0911,Suresh Reddy,50,Male,Bangalore,PhD,Marketing,Marketing Analyst,2023-10-04,1,68000,Average,3,Resigned
+EMP0912,Saranya Pillai,22,Female,Kolkata,PhD,Engineering,Senior Engineer,2022-12-08,2,129400,Good,19,Resigned
+EMP0913,Manoj Nair,53,Male,Hyderabad,Diploma,Engineering,Software Engineer,2019-02-12,5,65200,Average,10,Active
+EMP0914,Sanjay Nair,44,Male,Chennai,Diploma,Sales,Account Manager,2015-03-13,9,74800,Average,19,Terminated
+EMP0915,Ananya Patel,28,Female,Bangalore,Master's,Engineering,Tech Lead,2023-02-24,1,70800,Poor,11,Active
+EMP0916,Siddharth Bose,55,Male,Mumbai,Diploma,Customer Support,Customer Success Manager,2015-06-16,9,40500,Average,19,Active
+EMP0917,Arun Singh,43,Male,Bangalore,PhD,Operations,Operations Analyst,2019-09-27,5,59000,Good,23,Terminated
+EMP0918,Divya Verma,41,Female,Hyderabad,Master's,Sales,Account Manager,2022-10-14,2,88600,Average,6,Resigned
+EMP0919,Suresh Singh,47,Male,Mumbai,Master's,Operations,Operations Analyst,2022-08-09,2,50800,Excellent,0,Active
+EMP0920,Kavya Mehta,28,Female,Chennai,Master's,Finance,Finance Manager,2017-07-09,7,56000,Average,19,Active
+EMP0921,Nithya Reddy,43,Female,Bangalore,Diploma,Operations,Logistics Coordinator,2020-05-02,4,68600,Average,11,Active
+EMP0922,Ananya Singh,46,Female,Hyderabad,PhD,Operations,Operations Analyst,2019-07-09,5,41400,Excellent,17,Terminated
+EMP0923,Kavya Nair,50,Female,Bangalore,Diploma,Customer Support,Support Lead,2015-05-02,9,51200,Good,18,Resigned
+EMP0924,Amit Nair,37,Male,Hyderabad,Diploma,Finance,Auditor,2021-01-10,3,61100,Excellent,6,Active
+EMP0925,Sneha Bose,48,Female,Kolkata,PhD,Sales,Business Development Rep,2023-06-05,1,50600,Average,11,Active
+EMP0926,Shreya Singh,36,Female,Kolkata,Diploma,Finance,Auditor,2020-07-19,4,105200,,5,Active
+EMP0927,Revathi Mehta,28,Female,Mumbai,Diploma,Operations,Operations Analyst,2021-07-04,3,,Poor,20,Active
+EMP0928,Deepak Das,23,Male,Chennai,PhD,Operations,Operations Manager,2021-11-02,3,48900,Poor,30,Terminated
+EMP0929,Shreya Singh,32,Female,Mumbai,Diploma,Customer Support,Support Agent,2019-02-20,5,45000,Poor,10,Terminated
+EMP0930,Karthik Das,37,Male,Kolkata,Diploma,HR,Payroll Specialist,2017-09-17,7,51700,Excellent,10,Resigned
+EMP0931,Manoj Rao,24,Male,Bangalore,Diploma,Engineering,Software Engineer,2020-10-29,4,116800,Excellent,28,Active
+EMP0932,Manoj Mehta,25,Male,Delhi,PhD,Customer Support,Customer Success Manager,2019-06-20,5,33800,Poor,20,Terminated
+EMP0933,Vikram Patel,29,Male,Mumbai,Master's,Customer Support,Support Lead,2019-02-10,5,61300,Average,25,Active
+EMP0934,Sowmya Rao,53,Female,Hyderabad,Master's,Engineering,QA Engineer,2023-06-28,1,85300,Average,10,Terminated
+EMP0935,Nithya Kumar,31,Female,Bangalore,PhD,Customer Support,Support Agent,2015-04-17,9,50800,Average,9,Terminated
+EMP0936,Pooja Rao,31,Female,Pune,Master's,HR,HR Manager,2016-08-23,8,,Poor,7,Active
+EMP0937,Sneha Das,45,Female,Mumbai,Diploma,Engineering,DevOps Engineer,2020-05-07,4,134500,Average,18,Terminated
+EMP0938,Lakshmi Bose,55,Female,Chennai,Diploma,HR,Recruiter,2016-12-19,8,71900,Excellent,10,Terminated
+EMP0939,Suresh Das,29,Male,Kolkata,Master's,Customer Support,Customer Success Manager,2018-12-31,6,66300,Excellent,26,Terminated
+EMP0940,Pradeep Rajan,47,Male,Delhi,Bachelor's,Marketing,Marketing Analyst,2018-09-11,6,72100,Average,27,Resigned
+EMP0941,Manoj Das,37,Male,Pune,PhD,Finance,Accountant,2023-12-10,1,65900,Good,22,Active
+EMP0942,Shreya Nair,26,Female,Mumbai,Master's,Engineering,Senior Engineer,2020-11-10,4,92200,Good,18,Active
+EMP0943,Sanjay Menon,42,Male,Hyderabad,Bachelor's,Customer Support,Support Agent,2017-03-15,7,61500,Poor,6,Active
+EMP0944,Kavya Das,49,Female,Kolkata,Bachelor's,Engineering,Tech Lead,2023-01-28,1,109800,Good,20,Resigned
+EMP0945,Suresh Verma,53,Male,Bangalore,Master's,HR,HR Manager,2018-09-08,6,72200,Average,8,Terminated
+EMP0946,Sowmya Singh,50,Female,Delhi,Bachelor's,Finance,Finance Manager,2023-06-27,1,65400,Excellent,15,Active
+EMP0947,Sowmya Nair,43,Female,Delhi,Master's,Engineering,QA Engineer,2017-03-03,7,71100,Good,9,Active
+EMP0948,Nikhil Nair,31,Male,Delhi,PhD,Finance,Accountant,2016-10-02,8,75600,Good,21,Active
+EMP0949,Sowmya Das,39,Female,Bangalore,Master's,Customer Support,Support Lead,2017-12-12,7,63800,Average,10,Active
+EMP0950,Pooja Nair,48,Female,Pune,Bachelor's,HR,Payroll Specialist,2023-07-20,1,57100,Poor,25,Active
+EMP0951,Priya Bose,35,Female,Hyderabad,PhD,Operations,Operations Analyst,2018-04-22,6,92100,Excellent,25,Active
+EMP0952,Amit Rajan,39,Male,Hyderabad,Bachelor's,Finance,Auditor,2015-11-01,9,79300,Average,30,Terminated
+EMP0953,Amit Pillai,37,Male,Chennai,PhD,HR,Payroll Specialist,2021-10-21,3,72200,Excellent,20,Active
+EMP0954,Bhavana Nair,30,Female,Delhi,Bachelor's,Engineering,QA Engineer,2018-08-22,6,154100,Good,9,Active
+EMP0955,Ananya Iyer,55,Female,Pune,PhD,Finance,Finance Manager,2022-09-25,2,44400,Excellent,23,Terminated
+EMP0956,Aishwarya Menon,42,Female,Pune,Diploma,Sales,Sales Manager,2017-07-21,7,73900,Average,22,Active
+EMP0957,Rahul Sharma,49,Male,Bangalore,Diploma,Operations,Operations Manager,2020-06-15,4,84700,Excellent,0,Resigned
+EMP0958,Revathi Singh,43,Female,Kolkata,Bachelor's,HR,HR Manager,2023-03-28,1,36600,Excellent,3,Resigned
+EMP0959,Deepak Menon,26,Male,Bangalore,Diploma,HR,Recruiter,2018-02-08,6,69100,Good,2,Terminated
+EMP0960,Shreya Verma,49,Female,Kolkata,Bachelor's,Operations,Logistics Coordinator,2019-07-03,5,,Excellent,12,Resigned
+EMP0961,Sneha Nair,42,Female,Kolkata,Diploma,Customer Support,Support Agent,2022-05-01,2,41500,Average,18,Terminated
+EMP0962,Suresh Patel,24,Male,Mumbai,Master's,Engineering,Software Engineer,2021-01-21,3,97600,Average,21,Active
+EMP0963,Kavya Rajan,23,Female,Kolkata,Master's,Sales,Account Manager,2019-12-06,5,49400,Excellent,23,Active
+EMP0964,Manoj Mehta,35,Male,Delhi,Diploma,HR,Recruiter,2021-08-14,3,40200,Good,23,Resigned
+EMP0965,Vikram Mehta,44,Male,Bangalore,PhD,Operations,Logistics Coordinator,2019-08-28,5,47200,Excellent,15,Resigned
+EMP0966,Priya Kumar,47,Female,Kolkata,Bachelor's,HR,Payroll Specialist,2018-12-23,6,60400,Excellent,20,Active
+EMP0967,Nikhil Pillai,52,Male,Mumbai,Bachelor's,Customer Support,Support Lead,2018-01-30,6,,Good,18,Active
+EMP0968,Pradeep Mehta,25,Male,Hyderabad,Master's,Customer Support,Support Agent,2023-04-19,1,45500,Poor,5,Active
+EMP0969,Pradeep Verma,33,Male,Bangalore,PhD,Customer Support,Customer Success Manager,2016-03-24,8,40100,Poor,12,Active
+EMP0970,Nithya Iyer,43,Female,Delhi,Bachelor's,Engineering,Software Engineer,2020-04-11,4,57700,Poor,12,Active
+EMP0971,Rahul Sharma,36,Male,Hyderabad,Bachelor's,Engineering,DevOps Engineer,2019-09-16,5,62300,Poor,27,Active
+EMP0972,Suresh Mehta,30,Male,Hyderabad,PhD,HR,HR Manager,2022-05-12,2,67900,Excellent,23,Active
+EMP0973,Karthik Singh,36,Male,Delhi,Bachelor's,Sales,Sales Manager,2023-05-03,1,43200,Poor,3,Active
+EMP0974,Meera Rao,30,Female,Pune,PhD,HR,HR Manager,2019-09-25,5,63800,Good,29,Resigned
+EMP0975,Sowmya Kumar,33,Female,Bangalore,Bachelor's,Customer Support,Support Agent,2016-08-08,8,35100,Good,0,Active
+EMP0976,Ananya Pillai,47,Female,Hyderabad,Diploma,Customer Support,Customer Success Manager,2017-05-29,7,67100,Average,3,Resigned
+EMP0977,Meera Menon,43,Female,Kolkata,Diploma,Sales,Account Manager,2023-08-29,1,72400,Excellent,10,Terminated
+EMP0978,Lakshmi Pillai,30,Female,Pune,Bachelor's,Engineering,Tech Lead,2017-07-19,7,115000,Excellent,9,Resigned
+EMP0979,Lakshmi Singh,33,Female,Mumbai,Diploma,Engineering,Tech Lead,2020-09-23,4,78700,Good,23,Active
+EMP0980,Deepak Bose,45,Male,Chennai,Master's,Finance,Financial Analyst,2022-10-12,2,111300,Average,21,Active
+EMP0981,Ravi Menon,31,Male,Hyderabad,Diploma,Customer Support,Customer Success Manager,2017-04-08,7,47400,Poor,28,Active
+EMP0982,Pooja Iyer,22,Female,Pune,Bachelor's,Sales,Account Manager,2017-10-26,7,92900,Average,19,Active
+EMP0983,Sneha Patel,37,Female,Delhi,Diploma,HR,Recruiter,2023-10-26,1,42300,Poor,6,Active
+EMP0984,Suresh Patel,31,Male,Chennai,Master's,HR,HR Executive,2019-12-22,5,48700,Average,20,Active
+EMP0985,Amit Pillai,36,Male,Chennai,Diploma,Finance,Auditor,2018-05-08,6,66000,Poor,28,Active
+EMP0986,Bhavana Nair,38,Female,Pune,Bachelor's,Engineering,QA Engineer,2022-01-11,2,113900,Good,27,Terminated
+EMP0987,Sanjay Sharma,45,Male,Chennai,Master's,Engineering,Tech Lead,2022-06-16,2,118700,Poor,20,Active
+EMP0988,Bhavana Nair,43,Female,Chennai,Diploma,Operations,Logistics Coordinator,2022-06-24,2,86800,Average,3,Active
+EMP0989,Ananya Das,28,Female,Delhi,Diploma,HR,HR Manager,2021-04-15,3,74700,Poor,27,Resigned
+EMP0990,Deepak Bose,28,Male,Pune,Bachelor's,Customer Support,Customer Success Manager,2016-04-26,8,50500,Poor,23,Active
+EMP0991,Saranya Mehta,47,Female,Pune,Diploma,Finance,Financial Analyst,2022-07-03,2,45200,Good,30,Active
+EMP0992,Revathi Kumar,38,Female,Hyderabad,PhD,Operations,Operations Manager,2022-08-29,2,55000,Good,25,Active
+EMP0993,Revathi Verma,42,Female,Bangalore,Diploma,Sales,Sales Manager,2023-06-13,1,58700,Poor,11,Active
+EMP0994,Rajesh Bose,27,Male,Mumbai,Diploma,Marketing,Marketing Analyst,2018-07-05,6,84900,Good,8,Active
+EMP0995,Revathi Mehta,32,Female,Pune,PhD,Marketing,Content Strategist,2015-03-07,9,50300,Average,20,Resigned
+EMP0996,Arun Das,34,Male,Mumbai,Bachelor's,Operations,Operations Analyst,2016-01-06,8,90400,Poor,22,Active
+EMP0997,Siddharth Reddy,27,Male,Mumbai,PhD,Engineering,DevOps Engineer,2017-07-09,7,112100,Good,21,Resigned
+EMP0998,Ravi Rao,36,Male,Bangalore,Diploma,Sales,Sales Manager,2022-04-07,2,90100,Good,7,Active
+EMP0999,Saranya Mehta,48,Female,Bangalore,Master's,HR,Recruiter,2020-10-25,4,73300,Poor,22,Terminated
+EMP1000,Lakshmi Iyer,42,Female,Mumbai,PhD,Marketing,Content Strategist,2015-11-12,9,87400,Average,25,Terminated
