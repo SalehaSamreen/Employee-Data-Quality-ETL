@@ -1,18 +1,19 @@
 # Employee Data Quality & HR Analytics ETL Pipeline
 
-A practical data analytics project that demonstrates an end-to-end workflow for cleaning employee data, validating data quality, loading the cleaned dataset into MySQL, and performing HR analytics using SQL and Python.
+An end-to-end HR data quality and analytics pipeline built with **Python, Pandas, MySQL, SQL, and Pytest**.
 
-The project focuses on turning a raw employee dataset into a clean, validated, database-ready dataset and extracting descriptive business insights from it.
+The project takes a raw employee dataset through inspection, cleaning, validation, database loading, SQL analysis, and Python-based business analysis. Automated Pytest checks are used to verify key data-quality conditions throughout the workflow.
+
+**Stack:** Python · Pandas · MySQL · SQL · Pytest
+**Dataset:** Synthetic HR dataset · 1,000 employees · 14 attributes
 
 ---
 
 ## 📌 Project Overview
 
-This project simulates a small HR analytics workflow using a synthetic employee dataset containing **1,000 employee records and 14 attributes**.
+HR datasets can contain missing values, inconsistent text, invalid values, and other data-quality issues that can affect downstream analysis.
 
-The raw dataset contains missing values that need to be identified and handled before analysis.
-
-The project follows a complete ETL and analytics workflow:
+This project demonstrates a reproducible workflow for turning raw employee data into a clean, validated, database-ready dataset and extracting descriptive HR insights from it.
 
 ```text
 Raw Employee CSV
@@ -23,7 +24,7 @@ Data Cleaning
        ↓
 Data Validation
        ↓
-Load Cleaned Data into MySQL
+MySQL Database
        ↓
 SQL Analysis
        ↓
@@ -32,38 +33,62 @@ Python / Pandas Analysis
 Business Insights
 ```
 
-The main objective is not only to analyze employee data, but also to demonstrate how data can be prepared and moved through a simple analytics pipeline.
+The project focuses on both **data preparation** and **analytics**, rather than analyzing a CSV file in isolation.
 
 ---
 
-## 🎯 Objectives
+## 📊 Results at a Glance
 
-The project was built to demonstrate the following practical data analyst skills:
-
-* Inspecting raw datasets using Python and Pandas
-* Identifying missing values and data quality issues
-* Cleaning and transforming data
-* Applying documented rules for missing-value handling
-* Validating cleaned data
-* Connecting Python to MySQL
-* Loading cleaned data into a relational database
-* Writing SQL queries for business analysis
-* Performing analysis using Pandas
-* Extracting descriptive HR insights
-* Structuring a reproducible analytics project
+| Metric                        |    Result |
+| ----------------------------- | --------: |
+| Raw records                   | **1,000** |
+| Attributes                    |    **14** |
+| Missing values found          |    **51** |
+| Missing salaries              |    **32** |
+| Missing performance ratings   |    **19** |
+| Missing values after cleaning |     **0** |
+| Duplicate rows                |     **0** |
+| Duplicate Employee IDs        |     **0** |
+| Rows loaded into MySQL        | **1,000** |
+| SQL analyses                  |     **9** |
+| Automated Pytest checks       |     **9** |
 
 ---
 
-## 📊 Dataset
+## 🔄 ETL Pipeline
 
-The project uses a **synthetic HR employee dataset**.
+```mermaid
+flowchart LR
+    A[Raw CSV] --> B[01 Inspect]
+    B --> C[02 Clean]
+    C --> D[03 Validate]
+    D --> E[(MySQL: hr_analytics)]
+    E --> F[SQL Analysis]
+    E --> G[06 Pandas Analysis]
+    D --> H[Pytest Checks]
+```
 
-### Dataset Size
+### Pipeline Steps
 
-* **Rows:** 1,000 employees
-* **Columns:** 14
+| Step | Script                               | Purpose                                                                                                      |
+| ---- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| 1    | `src/01_inspect_data.py`             | Inspects shape, data types, missing values, duplicates, categories, whitespace, dates, IDs, and value ranges |
+| 2    | `src/02_clean_data.py`               | Cleans text fields, handles missing salaries and ratings, and converts `Join_Date`                           |
+| 3    | `src/03_validate_cleaned_data.py`    | Validates the cleaned dataset for missing values, duplicates, ratings, dates, and other conditions           |
+| 4    | `src/04_test_mysql_connection.py`    | Tests the MySQL connection using local `.env` credentials                                                    |
+| 5    | `src/05_load_to_mysql.py`            | Loads the cleaned dataset into the MySQL `employees` table                                                   |
+| 6    | `src/06_python_business_analysis.py` | Reads the MySQL table into Pandas and performs additional business analysis                                  |
 
-### Columns
+---
+
+# 📁 Dataset
+
+The project uses a **synthetic HR employee dataset** containing:
+
+* **1,000 employees**
+* **14 attributes**
+
+### Dataset Columns
 
 | Column               | Description                          |
 | -------------------- | ------------------------------------ |
@@ -77,60 +102,60 @@ The project uses a **synthetic HR employee dataset**.
 | `Job_Title`          | Employee job title                   |
 | `Join_Date`          | Date the employee joined the company |
 | `Years_at_Company`   | Years spent at the company           |
-| `Salary_INR`         | Employee salary in INR               |
-| `Performance_Rating` | Performance rating                   |
+| `Salary_INR`         | Salary in INR                        |
+| `Performance_Rating` | Employee performance rating          |
 | `Leaves_Taken`       | Number of leaves taken               |
 | `Employment_Status`  | Current employment status            |
 
-> **Note:** The dataset is synthetic. The findings in this project describe this dataset and should not be interpreted as real-world HR statistics.
+> **Note:** The dataset is synthetic. The findings in this project describe this dataset only and should not be interpreted as real-world HR statistics.
 
 ---
 
-# 🔍 Step 1 — Inspect the Raw Data
+# 🔍 Step 1 — Data Inspection
 
-The first stage was to understand the raw dataset before making any changes.
+The raw dataset is inspected before any transformation is performed.
 
-The script:
+The inspection script:
 
 ```text
 src/01_inspect_data.py
 ```
 
-was used to inspect:
+checks:
 
 * Dataset shape
+* Data types
 * Missing values
 * Duplicate rows
 * Duplicate employee IDs
-* Numeric statistics
 * Category values
+* Whitespace
 * Date ranges
+* Employee ID format
+* Numeric ranges
 * Basic data validity
 
 ### Initial Dataset
 
 ```text
-Rows: 1000
-Columns: 14
+Rows:       1,000
+Columns:       14
 ```
 
-### Missing Values Found
+### Missing Values
 
 | Column               | Missing Values |
 | -------------------- | -------------: |
 | `Salary_INR`         |             32 |
 | `Performance_Rating` |             19 |
 | Other columns        |              0 |
+| **Total**            |         **51** |
 
-Therefore, the raw dataset contained:
-
-**51 missing values in total.**
-
-There were also:
+Additional checks found:
 
 ```text
-Duplicate rows: 0
-Duplicate Employee IDs: 0
+Duplicate rows:          0
+Duplicate Employee IDs:  0
 ```
 
 The salary values ranged from approximately:
@@ -139,73 +164,79 @@ The salary values ranged from approximately:
 ₹28,900 → ₹1,60,400
 ```
 
-The dataset did not contain invalid join dates or obvious invalid values in the inspected fields.
+No invalid join dates or other obvious invalid values were identified by the inspection checks.
 
 ---
 
-# 🧹 Step 2 — Clean the Data
+# 🧹 Step 2 — Data Cleaning
 
-The cleaning process was implemented in:
+The cleaning process is implemented in:
 
 ```text
 src/02_clean_data.py
 ```
 
-The cleaning stage performs the following operations.
-
 ### 1. Remove unnecessary whitespace
 
-Whitespace was removed from relevant text columns such as:
+Leading and trailing whitespace is removed from relevant text columns, including:
 
-* Employee ID
-* Name
-* Gender
-* City
-* Education
-* Department
-* Job Title
-* Performance Rating
-* Employment Status
+* `Employee_ID`
+* `Name`
+* `Gender`
+* `City`
+* `Education`
+* `Department`
+* `Job_Title`
+* `Performance_Rating`
+* `Employment_Status`
 
-### 2. Handle missing salary values
+This prevents visually identical values from being treated as different categories.
 
-There were **32 missing salary values**.
+---
 
-The median salary of the dataset was:
+### 2. Handle Missing Salaries
 
-```text
-₹67,250
-```
+The raw dataset contained **32 missing salary values**.
 
-The missing salary values were replaced using this median.
+The overall dataset median salary was:
+
+**₹67,250**
+
+Missing salary values were replaced using this median.
 
 ### Why median?
 
-Salary data can contain relatively high values that can pull the average upward. Median is therefore a reasonable documented choice for this synthetic dataset.
+Salary distributions can contain relatively high values that can influence the mean. The median provides a more robust central value for this synthetic dataset.
 
-This is a project-level handling decision rather than a universal HR rule.
+This is a documented project-level decision rather than a universal HR rule.
 
-In a real organization, missing salary values should first be investigated to understand why the values are missing before choosing an imputation strategy.
+In a real organization, missing salary records should first be investigated to determine why the values are missing before selecting an imputation strategy.
 
-### 3. Handle missing performance ratings
+---
 
-There were **19 missing performance ratings**.
+### 3. Handle Missing Performance Ratings
 
-Instead of assigning an artificial rating, the missing values were represented as:
+The dataset contained **19 missing performance ratings**.
+
+Rather than assigning an artificial rating, these values were represented as:
 
 ```text
 Not Rated
 ```
 
-This preserves the fact that no performance rating was available.
+This preserves the distinction between an employee who has no recorded rating and an employee who received an actual performance assessment.
 
-### 4. Convert `Join_Date`
+---
 
-The `Join_Date` column was converted into a proper datetime format.
+### 4. Convert Join Date
 
-### 5. Save the cleaned dataset
+`Join_Date` is converted from text into a proper datetime representation so that it can be validated and stored using MySQL's `DATE` type.
 
-The cleaned dataset was saved to:
+---
+
+### 5. Save the Cleaned Dataset
+
+The resulting dataset is saved to:
 
 ```text
 data/cleaned/employee_data_cleaned.csv
@@ -213,73 +244,57 @@ data/cleaned/employee_data_cleaned.csv
 
 ---
 
-# ✅ Step 3 — Validate the Cleaned Data
+# ✅ Step 3 — Data Validation
 
-The cleaned dataset was validated using:
+The cleaned dataset is validated using:
 
 ```text
 src/03_validate_cleaned_data.py
 ```
 
-The validation checked:
+The validation checks:
 
 * Dataset shape
 * Missing values
 * Duplicate rows
 * Duplicate employee IDs
 * Performance rating categories
-* Salary statistics
-* Join date validity
+* Salary values
+* Join-date validity
 
 ### Validation Results
 
 ```text
 Dataset shape: (1000, 14)
 
-Missing values:
-All columns → 0
-
-Duplicate rows:
-0
-
-Duplicate Employee IDs:
-0
-
-Invalid Join_Date values:
-0
+Missing values:           0
+Duplicate rows:           0
+Duplicate Employee IDs:   0
+Invalid Join_Date values: 0
 ```
 
-After cleaning:
+The cleaned dataset therefore contains:
 
-```text
-Missing values: 0
-Duplicate rows: 0
-Duplicate Employee IDs: 0
-```
-
-The cleaned dataset was therefore ready to be loaded into MySQL.
+* **1,000 records**
+* **0 missing values**
+* **0 duplicate rows**
+* **0 duplicate Employee IDs**
 
 ---
 
-# 🗄️ Step 4 — Connect Python to MySQL
+# 🗄️ Step 4 — MySQL Database
 
-The project uses **MySQL** as the database layer.
+The project uses **MySQL** as the relational database layer.
 
-The connection was tested using:
+The database connection is tested using:
 
 ```text
 src/04_test_mysql_connection.py
 ```
 
-The connection uses environment variables stored in:
+Database credentials are stored locally using environment variables.
 
-```text
-.env
-```
-
-The `.env` file contains local database credentials and is intentionally excluded from GitHub.
-
-Example structure:
+Example:
 
 ```text
 MYSQL_HOST=localhost
@@ -289,11 +304,11 @@ MYSQL_PASSWORD=your_password
 MYSQL_DATABASE=hr_analytics
 ```
 
-> Never commit the actual `.env` file or database password to GitHub.
+The actual `.env` file is excluded from GitHub.
 
 ---
 
-# 🏗️ Step 5 — Create the MySQL Database and Table
+# 🏗️ Step 5 — Database Schema
 
 The database schema is defined in:
 
@@ -301,23 +316,28 @@ The database schema is defined in:
 sql/schema.sql
 ```
 
-The project creates a database named:
+The script creates:
 
 ```text
 hr_analytics
+└── employees
 ```
 
-and an `employees` table containing the 14 employee attributes.
+The `employees` table contains the 14 employee attributes.
 
-The `Employee_ID` column is used as the primary key.
+`Employee_ID` is used as the primary key, while the remaining fields use appropriate SQL data types such as `VARCHAR`, `INT`, `DATE`, and `DECIMAL`.
 
-The database structure allows the cleaned CSV data to be stored in a relational database instead of being analyzed only from a local file.
+### Database Design
+
+MySQL was selected to demonstrate a server-based relational database workflow and SQL analysis using MySQL Workbench.
+
+The loading process is also repeatable: the existing employee records are cleared before the cleaned dataset is inserted, preventing duplicate accumulation across repeated runs.
 
 ---
 
-# 📥 Step 6 — Load Cleaned Data into MySQL
+# 📥 Step 6 — Load Data into MySQL
 
-The cleaned dataset is loaded into MySQL using:
+The cleaned dataset is loaded using:
 
 ```text
 src/05_load_to_mysql.py
@@ -339,7 +359,7 @@ The script:
 Rows loaded: 1000
 ```
 
-The data was then verified directly in MySQL using queries such as:
+The loaded data was verified using SQL:
 
 ```sql
 USE hr_analytics;
@@ -354,14 +374,6 @@ Result:
 1000
 ```
 
-The employee records were also checked using:
-
-```sql
-SELECT *
-FROM employees
-LIMIT 5;
-```
-
 ---
 
 # 📈 Step 7 — SQL Analysis
@@ -372,26 +384,36 @@ SQL analysis is stored in:
 sql/analysis.sql
 ```
 
-The analysis covers several HR-related questions.
-
-### Analyses included
+The project answers the following HR-related questions:
 
 1. Overall HR summary
-2. Employee distribution by department
-3. Average salary by department
-4. Employment status overview
-5. Performance rating overview
-6. Employment status within departments
-7. Salary by education level
-8. Leave patterns by department
-9. Salary by years at the company
-10. Highest-paid employees
+2. Employee distribution and average salary by department
+3. Employment status overview
+4. Performance rating overview
+5. Employment status within departments
+6. Salary by education level
+7. Leave patterns by department
+8. Salary by years at company
+9. Top 10 highest-paid employees
+
+The SQL analysis demonstrates practical use of:
+
+* `SELECT`
+* `WHERE`
+* `GROUP BY`
+* `ORDER BY`
+* `COUNT`
+* `AVG`
+* `MAX`
+* Filtering
+* Aggregation
+* Sorting
 
 ---
 
 # 🧮 Step 8 — Python / Pandas Business Analysis
 
-After loading the data into MySQL, the employee data was also analyzed using:
+Additional analysis is performed using:
 
 ```text
 src/06_python_business_analysis.py
@@ -399,23 +421,21 @@ src/06_python_business_analysis.py
 
 The script:
 
-1. Connects to MySQL
-2. Loads the employee table into a Pandas DataFrame
-3. Calculates overall statistics
-4. Groups employees by department
-5. Analyzes employment status
-6. Analyzes performance ratings
-7. Identifies the highest-paid employees
+* Connects to MySQL
+* Loads the employee table into a Pandas DataFrame
+* Calculates overall statistics
+* Analyzes departments
+* Analyzes employment status
+* Analyzes performance ratings
+* Identifies highest-paid employees
 
-This demonstrates how SQL and Python/Pandas can be used together in an analytics workflow.
+This demonstrates how **SQL and Python/Pandas can be used together** within an analytics workflow.
 
 ---
 
 # 📊 Key Findings
 
-The following findings were obtained from the cleaned dataset.
-
-## Overall Employee Summary
+## Overall Summary
 
 | Metric                   |     Result |
 | ------------------------ | ---------: |
@@ -439,33 +459,33 @@ The following findings were obtained from the cleaned dataset.
 | Marketing        |       132 |     ₹70,286.36 |
 | HR               |       114 |     ₹61,003.95 |
 
-In this synthetic dataset, Engineering has the highest average salary among the listed departments, while Customer Support has the lowest average salary.
+Within this synthetic dataset, Engineering has the highest average salary among the listed departments, while Customer Support has the lowest.
 
-These differences are descriptive only and do not establish why salary differences exist.
+These differences are descriptive and do not establish why salary differences exist.
 
 ---
 
 ## Employment Status
 
-| Employment Status | Employees | Average Salary | Average Leaves |
-| ----------------- | --------: | -------------: | -------------: |
-| Active            |       649 |     ₹71,593.45 |          14.94 |
-| Terminated        |       184 |     ₹71,288.59 |          15.50 |
-| Resigned          |       167 |     ₹73,720.06 |          15.60 |
+| Status     | Employees | Average Salary | Average Leaves |
+| ---------- | --------: | -------------: | -------------: |
+| Active     |       649 |     ₹71,593.45 |          14.94 |
+| Terminated |       184 |     ₹71,288.59 |          15.50 |
+| Resigned   |       167 |     ₹73,720.06 |          15.60 |
 
 ---
 
 ## Performance Rating
 
-| Performance Rating | Employees | Average Salary | Average Leaves |
-| ------------------ | --------: | -------------: | -------------: |
-| Excellent          |       257 |     ₹73,151.75 |          15.63 |
-| Good               |       247 |     ₹72,992.31 |          15.01 |
-| Average            |       242 |     ₹71,869.21 |          14.81 |
-| Poor               |       235 |     ₹69,565.96 |          15.08 |
-| Not Rated          |        19 |     ₹69,634.21 |          16.05 |
+| Rating    | Employees | Average Salary | Average Leaves |
+| --------- | --------: | -------------: | -------------: |
+| Excellent |       257 |     ₹73,151.75 |          15.63 |
+| Good      |       247 |     ₹72,992.31 |          15.01 |
+| Average   |       242 |     ₹71,869.21 |          14.81 |
+| Poor      |       235 |     ₹69,565.96 |          15.08 |
+| Not Rated |        19 |     ₹69,634.21 |          16.05 |
 
-The `Not Rated` category represents the 19 performance ratings that were missing in the original dataset.
+`Not Rated` represents the 19 performance ratings that were missing in the original dataset.
 
 ---
 
@@ -477,6 +497,8 @@ The `Not Rated` category represents the 19 performance ratings that were missing
 | Bachelor's |       234 |     ₹72,244.66 |
 | Diploma    |       277 |     ₹71,385.02 |
 | Master's   |       231 |     ₹71,140.26 |
+
+The average salary differences between education groups are relatively small in this dataset.
 
 ---
 
@@ -491,6 +513,8 @@ The `Not Rated` category represents the 19 performance ratings that were missing
 | HR               |       114 |          15.07 |             30 |
 | Customer Support |       146 |          14.86 |             30 |
 | Operations       |       174 |          14.32 |             30 |
+
+The maximum recorded leave count is 30 across all departments.
 
 ---
 
@@ -509,34 +533,31 @@ The `Not Rated` category represents the 19 performance ratings that were missing
 |     9 |        96 |     ₹72,242.19 |
 |    10 |         1 |     ₹43,800.00 |
 
-The 10-year category contains only **one employee**, so it should not be interpreted as a meaningful salary trend.
+The 10-year group contains only one employee and therefore should not be interpreted as a meaningful salary trend.
 
 ---
 
 # 🔎 Data Quality Summary
 
-The main data-quality issue in the raw dataset was missing information.
-
 ```text
-Raw records                  1,000
-Raw columns                     14
+Raw records                    1,000
+Raw attributes                    14
 
-Missing salaries                32
-Missing performance ratings     19
-Total missing values            51
+Missing salaries                  32
+Missing performance ratings       19
+Total missing values              51
 
-Duplicate rows                   0
-Duplicate Employee IDs           0
+Duplicate rows                     0
+Duplicate Employee IDs             0
 
-Cleaned records               1,000
-Missing values after cleaning     0
+Cleaned records                1,000
+Missing values after cleaning      0
 ```
 
-### Missing-value handling
+### Missing Salary Handling
 
 ```text
-Salary_INR
-32 missing values
+32 missing salaries
         ↓
 Dataset median
 ₹67,250
@@ -544,9 +565,10 @@ Dataset median
 Missing salaries replaced
 ```
 
+### Missing Rating Handling
+
 ```text
-Performance_Rating
-19 missing values
+19 missing ratings
         ↓
 "Not Rated"
         ↓
@@ -555,68 +577,37 @@ Missing ratings represented explicitly
 
 ---
 
-# 🔄 Complete ETL Workflow
+# 🧪 Automated Testing
 
-The complete workflow of this project can be summarized as:
+The project uses **Pytest** to validate the cleaned dataset.
+
+Tests are located in:
 
 ```text
-                RAW DATA
-                   │
-                   ▼
-        employee_data.csv
-                   │
-                   ▼
-        ┌──────────────────┐
-        │  Data Inspection  │
-        │  Pandas / Python  │
-        └──────────────────┘
-                   │
-                   │
-          Identify issues
-                   │
-        ┌──────────┴──────────┐
-        │                     │
-        ▼                     ▼
- 32 Missing Salary      19 Missing Rating
-        │                     │
-        ▼                     ▼
- Median Imputation       "Not Rated"
-        │                     │
-        └──────────┬──────────┘
-                   ▼
-        ┌──────────────────┐
-        │   Data Cleaning   │
-        └──────────────────┘
-                   │
-                   ▼
-      employee_data_cleaned.csv
-                   │
-                   ▼
-        ┌──────────────────┐
-        │ Data Validation   │
-        └──────────────────┘
-                   │
-          0 missing values
-          0 duplicate IDs
-          0 duplicate rows
-                   │
-                   ▼
-        ┌──────────────────┐
-        │      MySQL       │
-        │   hr_analytics   │
-        └──────────────────┘
-                   │
-                   ▼
-             employees
-                   │
-          ┌────────┴────────┐
-          ▼                 ▼
-    SQL Analysis       Python/Pandas
-          │                 │
-          └────────┬────────┘
-                   ▼
-          Business Insights
+tests/test_cleaned_data.py
 ```
+
+Run the test suite with:
+
+```bash
+pytest -v
+```
+
+### Data Quality Tests
+
+| Test              | Purpose                                                  |
+| ----------------- | -------------------------------------------------------- |
+| Shape             | Confirms exactly 1,000 rows and 14 columns               |
+| Column names      | Confirms the expected schema                             |
+| No missing values | Confirms cleaning removed missing values                 |
+| No duplicates     | Confirms unique rows and Employee IDs                    |
+| Salary            | Confirms numeric and positive salary values              |
+| Rating categories | Confirms only expected rating categories are present     |
+| Employment status | Confirms only expected status values are present         |
+| Join dates        | Confirms valid and non-future dates                      |
+| Whitespace        | Confirms text fields have no leading/trailing whitespace |
+
+This adds a reproducible quality-control layer instead of relying only on manual inspection.
 
 ---
 
@@ -644,82 +635,36 @@ Employee-Data-Quality-ETL/
 │   ├── 05_load_to_mysql.py
 │   └── 06_python_business_analysis.py
 │
-├── .env
+├── tests/
+│   └── test_cleaned_data.py
+│
+├── .env.example
 ├── .gitignore
 ├── requirements.txt
 └── README.md
 ```
 
----
-
-# 🛠️ Technologies Used
-
-### Programming & Analysis
-
-* Python
-* Pandas
-
-### Database
-
-* MySQL
-
-### SQL
-
-* MySQL SQL
-* Aggregations
-* `GROUP BY`
-* `ORDER BY`
-* `COUNT`
-* `AVG`
-* `MAX`
-* Filtering and sorting
-
-### Python Libraries
-
-* Pandas
-* MySQL Connector
-* python-dotenv
-
-### Tools
-
-* MySQL Workbench
-* VS Code
-* Git
-* GitHub
+> `.env` is created locally from `.env.example` and is not committed to GitHub.
 
 ---
 
-# ▶️ How to Run the Project
+# ▶️ How to Run
 
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/SalehaSamreen/Ecommerce-Analytics.git
-```
-
-Replace the repository URL with this project's GitHub repository URL after it is created/pushed.
-
-Then move into the project folder:
-
-```bash
+git clone https://github.com/SalehaSamreen/Employee-Data-Quality-ETL.git
 cd Employee-Data-Quality-ETL
 ```
 
----
+## 2. Create a virtual environment
 
-## 2. Create a Python virtual environment
+### Windows
 
 ```bash
 python -m venv venv
-```
-
-Activate it on Windows:
-
-```bash
 venv\Scripts\activate
 ```
-
----
 
 ## 3. Install dependencies
 
@@ -727,11 +672,9 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
----
+## 4. Configure MySQL
 
-## 4. Configure MySQL credentials
-
-Create a local `.env` file containing:
+Copy `.env.example` to `.env` and provide your local MySQL credentials:
 
 ```text
 MYSQL_HOST=localhost
@@ -741,25 +684,15 @@ MYSQL_PASSWORD=your_password
 MYSQL_DATABASE=hr_analytics
 ```
 
-Do not upload the `.env` file to GitHub.
-
----
+Do not commit `.env` to GitHub.
 
 ## 5. Inspect the raw data
-
-Run:
 
 ```bash
 python src/01_inspect_data.py
 ```
 
-This examines the raw employee dataset and identifies data-quality issues.
-
----
-
 ## 6. Clean the data
-
-Run:
 
 ```bash
 python src/02_clean_data.py
@@ -771,17 +704,13 @@ This creates:
 data/cleaned/employee_data_cleaned.csv
 ```
 
----
-
 ## 7. Validate the cleaned data
-
-Run:
 
 ```bash
 python src/03_validate_cleaned_data.py
 ```
 
-The validation should show:
+Expected validation:
 
 ```text
 Missing values → 0
@@ -790,11 +719,9 @@ Duplicate Employee IDs → 0
 Invalid Join_Date values → 0
 ```
 
----
+## 8. Test the MySQL connection
 
-## 8. Test MySQL connection
-
-Make sure MySQL Server is running and run:
+Make sure MySQL Server is running:
 
 ```bash
 python src/04_test_mysql_connection.py
@@ -806,28 +733,24 @@ Expected result:
 MySQL connection successful.
 ```
 
----
-
 ## 9. Create the database and table
 
-Run the SQL statements from:
+Open:
 
 ```text
 sql/schema.sql
 ```
 
+in MySQL Workbench and execute it.
+
 This creates:
 
 ```text
 hr_analytics
-    └── employees
+└── employees
 ```
 
----
-
-## 10. Load the cleaned data into MySQL
-
-Run:
+## 10. Load the cleaned data
 
 ```bash
 python src/05_load_to_mysql.py
@@ -836,13 +759,22 @@ python src/05_load_to_mysql.py
 Expected result:
 
 ```text
-Data loaded successfully.
 Rows loaded: 1000
 ```
 
----
+## 11. Run Python business analysis
 
-## 11. Run SQL analysis
+```bash
+python src/06_python_business_analysis.py
+```
+
+## 12. Run Pytest
+
+```bash
+pytest -v
+```
+
+## 13. Run SQL analysis
 
 Open:
 
@@ -850,71 +782,54 @@ Open:
 sql/analysis.sql
 ```
 
-Select the required queries in MySQL Workbench and execute them.
-
-The queries provide analysis of:
-
-* Employee distribution
-* Departments
-* Salaries
-* Employment status
-* Performance
-* Education
-* Leave patterns
-* Years at company
-* Highest-paid employees
-
----
-
-## 12. Run Python business analysis
-
-Run:
-
-```bash
-python src/06_python_business_analysis.py
-```
-
-This retrieves employee data from MySQL and performs additional analysis using Pandas.
+in MySQL Workbench and execute the queries.
 
 ---
 
 # 🔐 Security
 
-Database credentials are stored locally in:
+Database credentials are stored only in a local `.env` file.
 
-```text
-.env
-```
+The `.env` file is excluded from Git using `.gitignore`.
 
-The `.env` file should not be committed to GitHub.
+No database password is committed to this repository.
 
-The project should use `.gitignore` to prevent accidental credential exposure.
-
-No database password is included in this repository.
+A `.env.example` file can be used as a safe template for configuring the project locally.
 
 ---
 
 # ⚠️ Limitations
 
-This project uses a **synthetic HR dataset**, so the results should not be treated as actual organizational HR findings.
+* The dataset is synthetic and does not represent a real organization's workforce.
+* The pipeline currently consists of manually executed Python scripts rather than a scheduled or orchestrated workflow.
+* Salary imputation uses one overall dataset median.
+* The analysis is descriptive and identifies differences in the dataset but does not establish their causes.
+* The project has not been evaluated against production-scale HR data.
 
-The project demonstrates the technical workflow of:
+### Salary Imputation Limitation
 
-```text
-Data → Cleaning → Validation → Database → Analysis
-```
+The overall median salary used for missing values was **₹67,250**.
 
-rather than attempting to model a real company's workforce.
+Department-level medians differ substantially, so a real HR system could require a more context-specific approach. For this project, the overall median was selected as a documented and reproducible rule for the synthetic dataset.
 
-The median salary imputation used in this project is a documented handling decision for this dataset. In a real HR environment, missing salary data would require investigation into the source and reason for the missing values before selecting an appropriate treatment.
+In a real HR environment, missing salary records should first be investigated to determine the reason for the missing data before selecting an imputation strategy.
 
-Similarly, `Not Rated` indicates that a performance rating was unavailable; it does not represent an actual performance assessment.
+---
+
+# 🚀 Possible Next Steps
+
+* Compare overall-median and department-median salary imputation
+* Add a Power BI or Streamlit dashboard
+* Generate an automated data-quality report
+* Add additional validation rules
+* Run Pytest automatically using GitHub Actions
+* Schedule the ETL pipeline for recurring execution
 
 ---
 
 # 💡 What This Project Demonstrates
 
-This project demonstrates an end-to-end beginner-to-intermediate data analytics workflow:
+This project demonstrates an end-to-end **Data Analyst workflow**:
 
 ```text
 Python / Pandas
@@ -930,25 +845,32 @@ SQL
 Python Analysis
        ↓
 Business Insights
+       ↓
+Automated Testing
 ```
 
-Rather than analyzing a CSV in isolation, the project demonstrates how cleaned data can move from a raw source into a database and then be used for analytical queries.
+Rather than analyzing a raw CSV in isolation, the project demonstrates how data can be:
+
+**inspected → cleaned → validated → loaded into a relational database → analyzed with SQL and Python → tested automatically.**
 
 ---
 
 # 📌 Project Outcome
 
-Starting with a raw dataset of **1,000 employee records**, the project:
+Starting with a raw dataset of **1,000 employee records**, the pipeline:
 
 * Identified **51 missing values**
-* Handled **32 missing salary values** using the dataset median of **₹67,250**
+* Handled **32 missing salary values**
 * Represented **19 missing performance ratings** as `Not Rated`
+* Removed unnecessary whitespace
 * Validated the cleaned dataset
-* Confirmed **0 duplicate employee IDs**
 * Confirmed **0 duplicate rows**
+* Confirmed **0 duplicate Employee IDs**
+* Produced **0 missing values after cleaning**
 * Loaded all **1,000 cleaned records into MySQL**
-* Created multiple SQL analyses
+* Performed **9 SQL analyses**
 * Performed additional analysis using Python and Pandas
-* Extracted descriptive HR insights from the cleaned data
+* Added **9 automated Pytest checks**
+* Extracted descriptive HR insights from the cleaned dataset
 
-The final result is a reproducible HR analytics ETL pipeline that connects **data cleaning, database management, SQL analysis, and Python-based analytics** in one project.
+The final result is a reproducible HR analytics ETL pipeline demonstrating practical skills in **Python, Pandas, data quality, ETL, MySQL, SQL, and automated testing**.
